@@ -5,9 +5,9 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-header, footer, main {
-    max-width: 1200px;
-}
+/*header, footer, main {
+    margin: 0 auto;
+}*/
 
 header, footer {
     position: relative;
@@ -26,7 +26,7 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 0.9rem;
     text-align: center;
-    color: rgb(163, 84, 61);
+    color: black;
 }
 
 main section {
@@ -37,7 +37,7 @@ main section {
 }
 
 main section h3 {
-    color: black;
+    color: rgb(163, 84, 61);
 }
 
 main section img {
