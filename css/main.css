@@ -7,37 +7,37 @@ header, nav, main, footer {
     margin: 1.25rem auto;
     max-width: 800px;
 }
+
 header, footer {
     position: relative;
     background-color: rgb(85, 117, 113);
     padding: .5rem;
     border-radius: 15px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
   
 header img {
-    float: right;
     width: 200px;
     border: 2px solid rgb(85, 117, 113);
     border-radius: 5px;
+    font-family: 'Playfair Display', serif;
 }
 
 main {
     color: rgb(163, 84, 61);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#headertwobreak {
-    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav {
     color: rgb(85, 117, 113);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
     color: inherit;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;  
 }
