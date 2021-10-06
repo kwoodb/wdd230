@@ -1,0 +1,233 @@
+body {
+	/*font-size: 16px;*/
+	font-family: 'Nunito', sans-serif;
+}
+header {
+	background-color: rgb(24, 117, 185);
+	padding: .5rem;
+	display: flex;
+	align-items:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+    color: white;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+	letter-spacing: 1pt;
+	color: rgb(254, 192, 98, 1);
+    text-shadow: .5px .5px rgb(41, 42, 41);
+	margin-left: 18px;
+	font-size: .9rem;
+}
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: black;
+}
+nav {
+	background-color: rgb(85, 85, 85);
+}
+/*	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+}
+*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*overflow: hidden;*/
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	padding: 0.8rem 2%;
+	text-decoration: none;
+	/*font-weight: bold;*/
+    border-top: 1px solid rgba(0,0,0,.3)
+}
+
+nav ul li.activebutton a {
+    background-color: rbgb(0,0,0,0.2);
+    color: rgb(253,165,31);
+}
+
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ footer {
+    position: relative;
+    background-color: rgb(24, 117, 185);
+    padding: .5rem;
+    color: white;
+	text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* phone or baseline views **************************/
+/*
+.subhead {
+	color: black;
+}
+.name {
+	color: white;
+	background-color: rgb(41, 42, 41);
+	border: 1px solid black;
+}
+
+
+
+
+header,
+nav,
+main,
+footer {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: .5rem;
+}
+
+
+
+
+
+h2 {
+	text-align: center;
+	color: rgb(41, 42, 41);
+}
+
+
+main {
+	width: 75%;
+    height: auto;
+	font-size: 0.9rem;
+    text-align: center;
+    color: black;
+
+}
+
+main section {
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 0 4px #333;
+	margin: 1em;
+	background-color: rgb(218, 218, 218);
+}
+
+
+main section img {
+	width: 200px;
+	padding: .25rem;
+}
+
+main ul {
+	text-align: left;
+}
+
+main table, th, td {
+	border: 1px solid black; 
+	border-collapse: collapse;
+	text-align: left;
+	padding: 5px;
+}
+
+main table {
+	width: 100%;
+	box-shadow: 0 0 2px #333;
+}
+
+.citrus {
+	background-color: rgb(253, 165, 31);
+}
+
+.teal {
+	background-color: rgb(24, 117, 185);
+}
+
+.waterfall {
+	background-color: rgb(176,231, 228);
+}
+
+.grayowl {
+	background-color: rgb(218,218,218);
+}
+
+.amherstgray {
+	background-color: rgb(85, 85, 85);
+	color: white;
+}
+
+.charcolgray {
+	background-color: rgb(41, 42, 41);
+	color: white;
+}
+
+.audienceinfo {
+	text-align: left;
+	padding: 0 1rem;
+}
+
+#siteheader {
+	color: white;
+	background-color: rgb(24, 117, 185);
+	font-size: 40px;
+}
+
+#primnav {
+	color: white;
+	background-color: rgb(85, 85, 85);
+	font-size: 16px;
+}
+
+#foottype {
+	color: white;
+	background-color: rgb(24, 117, 185);
+	font-size: 16px;
+}
+
+#h2type {
+	color: rgb(41, 42, 41);
+	font-size: 25px;
+}
+
+#h3type {
+	color: rgb(41, 42, 41);
+	font-size: 20px;
+}
+
+#ptype {
+	color: rgb(41, 42, 41);
+	font-size: 16px;
+}
+
+footer a {
+    color: inherit;
+}*/

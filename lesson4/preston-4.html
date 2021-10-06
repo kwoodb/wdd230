@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson 4: High Country Weather and Events Preston page header and navigation assignment">
+    <title>Lesson 4: High Country Weather and Events Preston Page Header and Navigation</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet"> 
+    <script defer src= "../js/currentdate.js"></script>
+    <script src="navhamburger.js"></script>
+</head>
+<body>
+    <header>
+        <picture>        
+            <img src="images/siteicon128.png" alt="Picture of sun logo">
+        </picture>
+        <section class="headings">
+            <h1>High Country Weather and Events</h1>
+            <div class="motto">WE CAN WEATHER TOGETHER.</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="activebutton"><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="plancontent">
+        <h2>Preston</h2>
+        <section>Hero w/ weather summary</section>
+        <section>5 Day Forecast</section>
+        <section>Article</section>
+        <section>Contact Information</section>
+    </main>
+    <footer>
+        &copy; <span id="copyrightyear"></span> | Kristy Thieme | Washington | <a class="byuilink" href="https://www.byui.edu/online">BYUI Online Learning</a>
+        <br>Last Updated: <span id=lastupdated></span>
+    </footer>
+</body>
+</html>

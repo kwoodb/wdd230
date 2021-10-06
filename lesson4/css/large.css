@@ -1,0 +1,14 @@
+@media only screen and (min-width: 60em) {
+    
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+    .motto {
+		font-size: larger;
+	}
+
+	nav ul li a {
+		padding: .6rem 1rem;
+	}
+}
