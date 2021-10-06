@@ -87,15 +87,6 @@ nav ul.hide {
     clear: both;
 }
 
- footer {
-    position: relative;
-    background-color: rgb(24, 117, 185);
-    padding: .5rem;
-    color: white;
-	text-align: center;
-    font-family: 'Nunito', sans-serif;
-}
-
 h2 {
 	text-align: center;
 	color: rgb(41, 42, 41);
@@ -109,6 +100,18 @@ main section {
     padding: .5rem;
 }
 
+ footer {
+    position: relative;
+    background-color: rgb(24, 117, 185);
+    padding: .5rem;
+    color: white;
+	text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer a {
+    color: inherit;
+}
 /* phone or baseline views **************************/
 /*
 .subhead {
@@ -235,6 +238,4 @@ main table {
 	font-size: 16px;
 }
 
-footer a {
-    color: inherit;
-}*/
+*/
