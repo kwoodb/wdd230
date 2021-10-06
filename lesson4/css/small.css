@@ -27,8 +27,8 @@ header img {
 
 .motto {
 	letter-spacing: 1pt;
-	color: rgb(253, 200, 121);
-    text-shadow: .5px .5px rgb(41, 42, 41,0.8);
+	color: rgb(253,165,31);
+    text-shadow: .5px .5px rgb(41, 42, 41);
 	margin-left: 18px;
 	font-size: .9rem;
 }
