@@ -3,7 +3,12 @@ body {
 	font-family: 'Nunito', sans-serif;
 }
 header {
-	background-color: rgb(24, 117, 185);
+    background: #1875b9; 
+    background: -moz-linear-gradient(top,  #1875b9 0%, #004d91 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1875b9 0%,#004d91 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1875b9 0%,#004d91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1875b9', endColorstr='#004d91',GradientType=0 ); /* IE6-9 */
+    ;
 	padding: .5rem;
 	display: flex;
 	align-items:center;
@@ -27,8 +32,8 @@ header img {
 
 .motto {
 	letter-spacing: 1pt;
-	color: rgb(253,165,31);
-    text-shadow: .5px .5px rgb(41, 42, 41);
+	color: white;
+    text-shadow: 1px 1px /*rgb(253,165,31)*/rgb(41, 42, 41);
 	margin-left: 18px;
 	font-size: .9rem;
 }
