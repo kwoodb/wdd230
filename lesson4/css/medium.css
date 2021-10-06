@@ -23,7 +23,9 @@
 		background: -webkit-linear-gradient(top,  #555555 0%,#353535 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom,  #555555 0%,#353535 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#353535',GradientType=0 ); /* IE6-9 */
-
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	nav button {
 		display: none;
@@ -33,9 +35,9 @@
 		display: block;
 	}
 
-	nav ul {
+	/*nav ul {
 		margin-left: 3%;
-	}
+	}*/
 
 	nav ul li {
 		float: left;
@@ -43,7 +45,7 @@
 	
 	nav ul li a {
 		border: none;
-		border-right: 1px solid rgba(0,0,0,0.3);
+		/*border-right: 1px solid rgba(0,0,0,0.3);*/
 		padding: .8rem 1rem;
 	}
 
