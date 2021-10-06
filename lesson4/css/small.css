@@ -64,7 +64,7 @@ nav ul li a {
 }
 
 nav ul li.activebutton a {
-    background-color: rbga(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2);
     color: rgb(253,165,31);
 }
 
