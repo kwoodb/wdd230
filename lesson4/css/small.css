@@ -91,6 +91,18 @@ nav ul.hide {
     font-family: 'Nunito', sans-serif;
 }
 
+h2 {
+	text-align: center;
+	color: rgb(41, 42, 41);
+}
+
+main section {
+	border: 1px dashed black;
+	box-shadow: 0 0 4px #333;
+	margin: 1em;
+	background-color: rgb(218, 218, 218);
+    padding: .5rem;
+}
 
 /* phone or baseline views **************************/
 /*
@@ -119,10 +131,7 @@ footer {
 
 
 
-h2 {
-	text-align: center;
-	color: rgb(41, 42, 41);
-}
+
 
 
 main {
@@ -134,13 +143,6 @@ main {
 
 }
 
-main section {
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 0 0 4px #333;
-	margin: 1em;
-	background-color: rgb(218, 218, 218);
-}
 
 
 main section img {
