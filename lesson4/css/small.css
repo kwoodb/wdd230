@@ -37,26 +37,24 @@ header img {
 	margin-left: 18px;
 	font-size: .9rem;
 }
+
 nav button {
     margin: .2rem 2%;
+	padding: .45rem;
     background-color: transparent;
     border: none;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     color: black;
 }
+
 nav {
 	background-color: rgb(85, 85, 85);
 }
-/*	text-align: center;
-	font-weight: bold;
-	border: 1px solid black;
-}
-*/
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	/*overflow: hidden;*/
 }
 
 nav ul li a {
@@ -64,7 +62,6 @@ nav ul li a {
 	color: white;
 	padding: 0.8rem 2%;
 	text-decoration: none;
-	/*font-weight: bold;*/
     border-top: 1px solid rgba(0,0,0,.3)
 }
 
@@ -93,11 +90,10 @@ h2 {
 }
 
 main section {
-	border: 1px dashed black;
-	box-shadow: 0 0 4px #333;
+	box-shadow: 0 0 3px #333;
 	margin: 1em;
 	background-color: rgb(218, 218, 218);
-    padding: .5rem;
+    padding: .75rem;
 }
 
  footer {
@@ -112,6 +108,16 @@ main section {
 footer a {
     color: inherit;
 }
+
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+/*.responsive li {
+	display: block;
+}*/
+
+
 /* phone or baseline views **************************/
 /*
 .subhead {
