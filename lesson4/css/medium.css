@@ -24,8 +24,6 @@
 		background: linear-gradient(to bottom,  #555555 0%,#353535 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#353535',GradientType=0 ); /* IE6-9 */
 		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 	nav button {
 		display: none;
@@ -36,8 +34,11 @@
 	}
 
 	nav ul li {
-		float: left;
 		flex: 1 1 100%;
+		justify-content: space-evenly;
+		flex-direction: row;
+		float: left;
+		
 	}
 	
 	nav ul li a {
