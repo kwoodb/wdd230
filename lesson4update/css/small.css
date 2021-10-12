@@ -1,0 +1,95 @@
+body {
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+}
+header {
+    background: #1875b9; 
+    background: -moz-linear-gradient(top,  #1875b9 0%, #004d91 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1875b9 0%,#004d91 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1875b9 0%,#004d91 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1875b9', endColorstr='#004d91',GradientType=0 ); /* IE6-9 */
+    ;
+	padding: .5rem;
+	display: flex;
+	align-items:center;
+}
+
+header img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+    color: white;
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+.motto {
+	letter-spacing: 1pt;
+	color: white;
+    text-shadow: 1px 1px rgb(41, 42, 41);
+	margin-left: 18px;
+	font-size: .9rem;
+}
+nav {
+	margin: 0 auto;
+	background-color: tomato;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
+.responsive li {
+	display: block;
+}
+
+h2 {
+	text-align: center;
+	color: rgb(41, 42, 41);
+}
+
+main div {
+	box-shadow: 0 0 3px #333;
+	margin: 1em;
+	background-color: rgb(218, 218, 218);
+    padding: .75rem;
+}
+
+ footer {
+    position: relative;
+    background-color: rgb(24, 117, 185);
+    padding: .5rem;
+    color: white;
+	text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer a {
+    color: inherit;
+}
