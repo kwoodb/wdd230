@@ -18,11 +18,11 @@
 		margin-left: 17px;
 	}
 	nav {
-		background: #555555; /* Old browsers */
-		background: -moz-linear-gradient(top,  #555555 0%, #353535 100%); /* FF3.6-15 */
-		background: -webkit-linear-gradient(top,  #555555 0%,#353535 100%); /* Chrome10-25,Safari5.1-6 */
-		background: linear-gradient(to bottom,  #555555 0%,#353535 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#353535',GradientType=0 ); /* IE6-9 */
+		background: #555555; 
+		background: -moz-linear-gradient(top,  #555555 0%, #353535 100%); 
+		background: -webkit-linear-gradient(top,  #555555 0%,#353535 100%); 
+		background: linear-gradient(to bottom,  #555555 0%,#353535 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#353535',GradientType=0 ); 
 		display: flex;
 	}
 	nav button {
@@ -30,15 +30,10 @@
 	}
 
 	nav ul.hide {
-		display: block;
-	}
-
-	nav ul li {
+		display: flex;
+		margin: 0 auto;
 		flex: 1 1 100%;
 		justify-content: space-evenly;
-		flex-direction: row;
-		float: left;
-		
 	}
 	
 	nav ul li a {
