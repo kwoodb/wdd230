@@ -1,5 +1,5 @@
 let d = new Date();
-document.getElementById("copyrightyear").textContent = d.getFullYear();
+document.getElementById("copyrightYear").textContent = d.getFullYear();
 
 const options = {
     weekday: 'long',
