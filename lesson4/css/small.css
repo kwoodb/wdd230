@@ -3,6 +3,12 @@ body {
 	font-family: 'Nunito', sans-serif;
 	color:rgb(41, 42, 41)
 }
+.pancakefriday {
+	background: rgb(253,165,31);
+	color: rgb(41, 42, 41);
+	text-align: center;
+	padding: .2rem;
+}
 header {
     /*background: #1875b9; 
     background: -moz-linear-gradient(top,  #1875b9 0%, #004d91 100%); 
