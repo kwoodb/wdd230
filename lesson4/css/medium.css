@@ -44,11 +44,18 @@
 		box-shadow: 0 -30px 50px rgba(0,0,0,0.3) inset, 0 0 15px #222 inset;
 		border: 2px solid rgba(0,0,0,0.3);
 	}
+	.weathersummary {
+		font-size: 1.2em;
+		line-height: 1.2em;
+		
+	}
 	.flex {
 		display: flex;
 		flex-flow: row wrap;
+		margin: 25px auto;
+		max-width: 700px;
 		border-right: 1px solid rgb(41, 42, 41);
-		box-shadow: 0 0 30px rgba(0,0,0,.3);
+		box-shadow: 0 0 5px #333;
 	}
 	
 	.flex-col {
@@ -60,10 +67,12 @@
 	.col-head {
 		display: block;
 		padding: 5px;
-		background-color:rgb(24, 117, 185);
-		color: white;
+		background-color:rgb(253,165,31);
 		border-bottom: 1px solid rgb(41, 42, 41);
+		border-top: 1px solid rgb(41, 42, 41);
 		text-align: center;
+		font-size: 1.25rem;
+		font-weight: bold;
 	}
 	.data {
 		display: block;
@@ -71,5 +80,12 @@
 		font-size: 1rem;
 		text-align: center;
 		color:rgb(41, 42, 41);
+	}
+
+	.article img {
+		float: right;
+		margin: 2em;
+		width: 300px;
+		height: auto;
 	}
 }
