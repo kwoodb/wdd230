@@ -164,6 +164,33 @@ nav ul.hide {
 	box-shadow: 0 0 5px #333;
 	margin: 1rem;
 }
+
+.contactcontainer {
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 1000px;
+	background: rgb(253,165,31);
+	margin: 25px auto;
+	justify-items: center;
+	align-items: center;
+	padding: 1.2rem;
+}
+.prestonmap {
+	display: none;
+}
+.contactinfo {
+	line-height: 2rem;
+}
+.contactinfo a {
+	text-decoration: none;
+	color:rgb(41, 42, 41);
+}
+.smicon {
+	padding: 1rem;
+	width: 24px;
+	height: auto;
+	justify-content: space-evenly;
+}
  footer {
     position: relative;
     background-color: rgb(24, 117, 185);

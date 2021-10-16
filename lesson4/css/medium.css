@@ -54,6 +54,7 @@
 	
 	}
 	.weathersummary {
+		width: 250px;
 		font-size: 1.2em;
 		line-height: 1.2em;
 		
@@ -99,6 +100,21 @@
 	.article img {
 		float: right;
 		width: 350px;
+		height: auto;
+	}
+	.contactcontainer {
+		grid-template-columns: 1fr 1fr;
+	}
+	.prestonmap {
+		display: block;
+		width: 350px;
+		height: auto;
+		box-shadow: 0 0 5px #333;
+		margin: 1rem;
+	}
+	
+	.smicon {
+		width: 36px;
 		height: auto;
 	}
 }
