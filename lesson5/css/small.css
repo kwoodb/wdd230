@@ -157,7 +157,7 @@ nav ul.hide {
 	font-style: italic;
 }
 .article img {
-	width: 300px;
+	width: 100%;
 	height: auto;
 	border: 1px solid rgb(41, 42, 41);
 	box-shadow: 0 0 5px #333;
