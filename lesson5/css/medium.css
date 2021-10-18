@@ -64,7 +64,7 @@
 		text-align: center;
 		color: rgb(41, 42, 41);
 	}
-	.flex {
+	.weekforecast {
 		display: flex;
 		flex-flow: row wrap;
 		margin: 25px auto;
@@ -73,13 +73,13 @@
 		box-shadow: 0 0 5px #333;
 	}
 	
-	.flex-col {
+	.forecastdays {
 		flex: 1 1 auto;
 		border-bottom: 1px solid rgb(41, 42, 41);
 		border-left: 1px solid rgb(41, 42, 41);
 		text-align: center;
 	}
-	.col-head {
+	.weekday {
 		display: block;
 		padding: 5px;
 		background-color:rgb(253,165,31);
