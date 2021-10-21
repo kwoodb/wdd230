@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lesson 4: High Country Weather and Events Preston page header and navigation assignment">
+    <title>High Country Weather and Events: Preston, Idaho</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/faviconmountain.ico">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet"> 
+    <script defer src= "js/date.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/windchill.js"></script>
+</head>
+<body>
+
+    <div class="pancakefriday"> 
+        <p>🥞Saturday = Preston Pancakes in the Park!🥞 <br> 9:00 a.m. Saturday at the city park pavilion!</p>
+    </div>
+    <header>
+        <picture>        
+            <img src="images/siteicon128.png" alt="Picture of sun logo">
+        </picture>
+        <section class="headings">
+            <h1>High Country Weather and Events</h1>
+            <div class="motto">WE CAN WEATHER TOGETHER.</div>
+        </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="#">Home</a></li>
+            <li class="activebutton"><a href="preston-4.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main >
+        <div class="plancontent">
+            <h2 class="subhead">Preston</h2>
+                <div class="hero">
+                    <picture class="prestonhero">
+                        <source srcset="images/hero320.webp" media="(max-width: 500px)">
+                        <source srcset="images/hero620.webp" media="(max-width: 799px)">
+                        <source srcset="images/hero820.webp" media="(min-width: 800px)">
+                        <img  src="images/hero820.webp" alt="Image of warm spring day with sun shining down on a green field.">
+                    </picture>
+                    <section class="weathersummary">
+                        <h3 class="summarytitle">Weather Summary</h3>
+                        <div class="summarygrid">
+                            <span class="sumleft">Conditions:</span>
+                            <span class="sumright">Cloudy</span>
+                            <span class="sumleft">Temperature:</span>
+                            <span class="sumright">
+                                <span class="temp">47</span>°F</span>
+                            <span class="sumleft">Wind Chill:</span>
+                            <span class="sumright">
+                                <span class="windchill"></span></span>
+                            <span class="sumleft">Humidity:</span>
+                            <span class="sumright">63%</span>
+                            <span class="sumleft">Wind Speed:</span>
+                            <span class="sumright">
+                                <span class="windspeed">7</span> mph</span>
+                         </div>
+                    </section>
+                </div>
+        </div>
+        <h3 class="weekforecast">5 Day Forecast</h3>
+        <div class="flex">
+	        <div class="forecastdays">
+		        <span class="weekday">Thur</span>
+		        <img src="images/sunny5day.png" alt="Sun icon">
+		        <span class="data">67°F</span>
+	        </div>
+	        <div class="forecastdays">
+		        <span class="weekday">Fri</span>
+		        <img src="images/sunny5day.png" alt="Sun icon">
+		        <span class="data">65°F</span>
+	        </div>
+	        <div class="forecastdays">
+		        <span class="weekday">Sat</span>
+		        <img src="images/sunny5day.png" alt="Sun icon">
+		        <span class="data">64°F</span>
+	        </div>
+	        <div class="forecastdays">
+		        <span class="weekday">Sun</span>
+		        <img src="images/sunny5day.png" alt="Sun icon">
+		        <span class="data">67°F</span>
+	        </div>
+	        <div class="forecastdays">
+		        <span class="weekday">Mon</span>
+		        <img src="images/sunny5day.png" alt="Sun icon">
+		        <span class="data">72°F</span>
+	        </div>
+        </div>
+        <div class="plancontent">
+            <div class=" article"> 
+                <img src="images/prestonfootball.jpg" alt="Preston High School football game still image">
+                <h3>Preston Gridiron: Friday Night Watch</h3>
+                <h5 class="articleauthor">by Koralee Waite</h5>
+                <p>The Preston High School Indian's have had a rough beginning. Pressure mounts with approaching Friday night
+                game and the varsity team carrying four consecutive losses. Coach Peter Sloughburg predicts this will be their turn-a-round
+                game, "While we have had some devastating losses, this game is going to be different. The offense has working tirelessly to
+                tighten plays and our defense has a surprise in store for the Wild Hawks." Additionally, after being 
+                recruited from the soccer team, Sammy Hollins will be making his debut in the upcoming game as a needed kicker. 
+                Join us at Or Cuttler Field this Friday to cheer on the Indians!  
+                </p>
+            </div>
+        </div>
+        <div class="contactcontainer">
+            <img class="prestonmap" src="images/prestonmap.jpg" alt="Map of Preston Idaho retrieved from Google Maps">
+            <section class="contactinfo">
+            <h4>High Country Weather and Events</h4>
+            <span> <a href="https://www.google.com/maps/place/203+N+State+St,+Preston,+ID+83263/@42.1006607,-111.8791456,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7edbb4f546d:0xef200977030babba!8m2!3d42.1006607!4d-111.8769569"> 
+                203 N State Street, Preston, Idaho 83263</a></span>
+            <br><span>📞 208.552.3122</span>
+            <br><span>📧 highcountryweather@preston.com</span>
+            <br><img class="smicon" src="images/facebookicon.png" alt="Facbook icon">
+            <img class="smicon" src="images/instagramicon.png" alt="Instagram icon">
+            <img class="smicon" src="images/twittericon.png" alt="Twitter icon">
+            <img class="smicon" src="images/whatsappicon.png" alt="Whatsapp icon">
+            </section>
+        </div>
+    </main>
+    <footer>
+        &copy; <span id="copyrightYear"></span> High Country Weather and Events | Attributions | Kristy Thieme  
+       <br><span id="currentDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>  
+    <script src="js/fonts.js"></script>
+</body>
+</html>
