@@ -11,11 +11,15 @@
 	nav ul li a {
 		padding: .6rem 1rem;
 	}
-	
+	.subhead{
+		font-size: 2rem;
+	}
 	.weathersummary {
 		width: 250px;
 		font-size: 1.2em;
 		line-height: 1.2em;
+		left: 45px;
+		bottom: 25px;
 		
 	}
 }

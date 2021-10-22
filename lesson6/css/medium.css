@@ -48,6 +48,9 @@
 		box-shadow: 0 -30px 50px rgba(0,0,0,0.3) inset, 0 0 15px #222 inset;
 		border: 2px solid rgba(0,0,0,0.3);
 	}
+	.subhead{
+		font-size: 1.5rem;
+	}
 	.plancontent {
 		max-width: 820px;
 		margin: 0 auto;
@@ -55,20 +58,16 @@
 	}
 	.weathersummary {
 		position: absolute;
-		bottom: 20px;
-		left: 20px;
-		padding: 1.5rem;
-		background: rgb(24, 117, 185);
-		opacity: .98;
-		color: white;
-		border: 1pt solid rgb(24, 117, 185);
-		box-shadow: 0 0 5px #333;
+		bottom: 2.5%;
+		left: 14%;
 	}
 	.weekforecast {
 		display: block;
 		text-align: center;
 		color: rgb(41, 42, 41);
+		font-size: 1.75rem;
 	}
+
 	.flex {
 		display: flex;
 		flex-flow: row wrap;
