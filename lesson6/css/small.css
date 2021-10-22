@@ -162,8 +162,7 @@ nav ul.hide {
 }
 .article img {
 	display: block;
-	width: 100%;
-	height: auto;
+	margin: 0 auto;
 	border: 1px solid rgb(41, 42, 41);
 	box-shadow: 0 0 5px #333;
 
