@@ -1,74 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lesson 7: High Country Weather and Events Gallery page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lesson 7: High Country Weather and Events Gallery page"
+    />
     <title>High Country Weather and Events: Gallery</title>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="lesson6/images/faviconmountain.ico">
-    <link href="../lesson6/css/small.css" rel="stylesheet">
-    <link href="../lesson6/css/medium.css" rel="stylesheet">
-    <link href="../lesson6/css/large.css" rel="stylesheet"> 
-    <script defer src= "lesson6/js/date.js"></script>
-    <script defer src="lesson6/js/hamburger.js"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="../lesson6/images/faviconmountain.ico" />
+    <link href="../lesson6/css/small.css" rel="stylesheet" />
+    <link href="../lesson6/css/medium.css" rel="stylesheet" />
+    <link href="../lesson6/css/large.css" rel="stylesheet" />
+    <script defer src="../lesson6/js/date.js"></script>
+    <script defer src="../lesson6/js/hamburger.js"></script>
+    <script defer src="js/lazyload.js"></script>
+  </head>
+  <body>
+    <div class="pancakefriday"> 
+      <!--<p>🥞Saturday = Preston Pancakes in the Park!🥞 <br> 9:00 a.m. Saturday at the city park pavilion!</p>-->
+    </div>
     <header>
-        <picture>        
-            <img src="lesson3/images/siteicon128.png" alt="Picture of sun logo">
-        </picture>
-        <section class="headings">
-            <h1>High Country Weather and Events</h1>
-            <div class="motto">WE CAN WEATHER TOGETHER.</div>
-        </section>
+      <picture>
+        <img
+          src="../lesson3/images/siteicon128.png"
+          alt="Picture of sun logo"
+        />
+      </picture>
+      <section class="headings">
+        <h1>High Country Weather and Events</h1>
+        <div class="motto">WE CAN WEATHER TOGETHER.</div>
+      </section>
     </header>
     <nav class="clearfix">
-        <button onclick="toggleMenu()">&#9776; Menu</button>
-        <ul id="primaryNav" class="hide">
-            <li><a href="#">Home</a></li>
-            <li ><a href="lesson6/preston-6.html">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li class="activebutton"><a href="gallery-7.html">Gallery</a></li>
-        </ul>
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="../lesson6/preston-6.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li class="activebutton"><a href="gallery-7.html">Gallery</a></li>
+      </ul>
     </nav>
-    <main class="galleryimg">
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
-        <picture>
-            <img src="" alt="">
-        </picture>
+    <main>
+      <h2 class="subhead">Gallery</h2>
+      <div class="gallery" id="gallery">
+        <ul>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/citystorm350.jpg"
+                alt="Lightning storm in the city."
+              />
+              <figcaption>
+                Lightning storm in downtown. Photo submitted by Fabio Hanashiro.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/cloudburst350.jpg"
+                alt="Cloudburst over a field in Preston, Idaho."
+              />
+              <figcaption>
+                Cloudburst in a field submitted by Noah Adams.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/mtnsnow350.jpg"
+                alt="Snow in the high mountains."
+              />
+              <figcaption>
+                First snow in the mountains captured and submitted by Marco
+                Amatulli.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/rainyroad350.jpg"
+                alt="Rainy country road in the fall."
+              />
+              <figcaption>
+                Rainy country road in the fall. Submission by Jake Weirack.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/tornado350.jpg"
+                alt="Tornado touchdown in a field."
+              />
+              <figcaption>
+                Tornado touchdown in local field. Photo submitted by Nicholas
+                Noonan.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/sunset350.jpg"
+                alt="Colorful sunset after a storm."
+              />
+              <figcaption>
+                Colorful sunset after spring storm. Photo captured by Norah
+                Adams.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/snow350.jpg"
+                alt="Umbrella in a snowstorm."
+              />
+              <figcaption>
+                Umbrella in a snowstorm. Submission by Craig Whitehead.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/rainymtn350.jpg"
+                alt="Fresh rain in the mountains."
+              />
+              <figcaption>
+                Summer rainstorm in the mountains captured by Marco Amatulli.
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure class="gallerygrid">
+              <img
+                class="galleryimg"
+                src="images/placeholder350.jpeg"
+                data-src="images/lightningstorm350.jpg"
+                alt="Lightning storm in field. "
+              />
+              <figcaption>
+                Vibrant lightning storm in local field. Submission by Max
+                Larochello.
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
     </main>
-</body>
+    <footer>
+      <span id="galleryVisits"></span><br />
+      &copy; <span id="copyrightYear"></span> High Country Weather and Events |
+      Attributions | Kristy Thieme <br /><span id="currentDate"></span>
+    </footer>
+  </body>
 </html>

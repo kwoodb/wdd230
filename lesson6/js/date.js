@@ -10,10 +10,9 @@ const options = {
 
 document.getElementById("currentDate").textContent = d.toLocaleDateString('en-UK', options);
 
-function bannerCalculator() {
-    
-const d = new Date();
+//banner
 const today = d.getDay();
+function bannerCalculator() {
 const pancake = document.querySelector(".pancakefriday");
 
 if (today == 5) {
@@ -26,3 +25,20 @@ else {
 }
 }
 bannerCalculator();
+
+//datesbetween
+const lastVisit = localStorage.getItem('lastVisit') || today; 
+const displayDate = '';
+const millisecondsToDays = 8640000;
+if (lastVisit == today) {
+    document.querySelector('#galleryVisits').textContent = `Last visit: Today is your first visit!`;
+}
+else {
+    displayDate = (lastVisit - today / millisecondsToDays).toFixed(0);
+    document.querySelector('#galleryVisits').textContent =  `Last visit: ${displayDate}`;
+}
+ localStorage.setItem('lastVisit', today); 
+    
+
+
+
