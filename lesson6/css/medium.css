@@ -117,5 +117,7 @@
 		width: 36px;
 		height: auto;
 	}
-
+	.gallerygrid {
+		grid-template-columns: 1fr 1fr;
+	}
 }

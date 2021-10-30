@@ -28,7 +28,7 @@ bannerCalculator();
 
 //datesbetween
 const lastVisit = localStorage.getItem('lastVisit') || today; 
-const displayDate = '';
+//const displayDate = '';
 const millisecondsToDays = 8640000;
 if (lastVisit == today) {
     document.querySelector('#galleryVisits').textContent = `Last visit: Today is your first visit!`;
