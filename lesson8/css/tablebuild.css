@@ -4,8 +4,10 @@
 table { 
   border-collapse: collapse;
   border: thin solid #d2d4d3;
-  margin: 10px auto;
-  box-shadow: 10px 10px 10px #628ca6;      
+  margin: 2rem auto;
+  box-shadow: 10px 10px 10px #628ca6; 
+  width: 95%;
+  max-width: 20rem;    
 }
 tr:first-child th {
     background-color: #7fb9c2;
