@@ -295,7 +295,6 @@ form label.top input:required:valid {
 }
 #thanksimg {
   display: grid;
-  grid-template-columns: 1;
   margin: 0 auto;
   padding-bottom: 1rem;
 
