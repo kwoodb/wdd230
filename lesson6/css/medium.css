@@ -112,7 +112,6 @@
 		box-shadow: 0 0 5px #333;
 		margin: 1rem;
 	}
-	
 	.smicon {
 		width: 36px;
 		height: auto;
@@ -120,4 +119,6 @@
 	.gallerygrid {
 		grid-template-columns: 1fr 1fr;
 	}
+	div.stormform {
+		max-width: 600px;
 }

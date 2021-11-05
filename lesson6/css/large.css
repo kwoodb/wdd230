@@ -22,14 +22,13 @@
 		bottom: 25px;
 		
 	}
-	/*.gallery li:hover {
-		box-shadow: 0 5px 50px rgb(41, 42, 41);
-	}*/
 	.gallerygrid {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	.gallerygrid figure:hover {
 		box-shadow: 0 0 25px rgb(41, 42, 41);
 	}
-	
+	.reportBtn {
+		width: 25%;
+	  }
 }
