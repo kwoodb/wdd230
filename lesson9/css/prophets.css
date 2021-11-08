@@ -38,6 +38,11 @@ div.cards img {
     max-width: 50%;
     box-shadow: 0 0 5px #333;
 }
+footer {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10px auto;
+}
 /*---------MEDIUM VIEW--------*/
 @media only screen and (min-width: 32.5em) {
     div.cards {
