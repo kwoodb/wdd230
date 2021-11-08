@@ -1,0 +1,52 @@
+/*---------SMALL VIEW--------*/
+h1 {
+    text-align: center;
+    color: rgba(91,110,107,255);
+    font-family: 'Crimson Text', serif;
+    
+}
+div.cards {
+    display: grid;
+    grid-template-columns: 1fr;  
+    grid-gap: 10px;
+    background-color: rgba(54,56,58,255);
+    box-shadow: 0 0 5px #333;
+    padding: 10px;
+}
+div.cards section {
+    background-color: rgba(173,188,187,255); 
+    border: 1px solid rgba(209,214,219,255);
+   }
+div.cards h2 {
+    text-align: center;
+    color: rgba(54,56,58,255);
+    font-family: 'Crimson Text', serif;
+    
+}
+div.cards p {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+div.cards img {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 178.5px;
+    height: auto;
+    max-width: 50%;
+    box-shadow: 0 0 5px #333;
+}
+/*---------MEDIUM VIEW--------*/
+@media only screen and (min-width: 32.5em) {
+    div.cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/*---------LARGE VIEW--------*/
+@media only screen and (min-width: 60em) {
+    div.cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
