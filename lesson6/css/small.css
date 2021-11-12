@@ -85,7 +85,89 @@ nav ul.hide {
   display: table;
   clear: both;
 }
+/***********Home Page*****************/
+.homehero {
+  margin: 0 auto;
+  position: relative;
+}
+.homehero img {
+  width: 100%;
+}
+.homeherotext {
+  position: absolute;
+  left: 25px;
+  top: 3px;
+}
+.homeherotext h2 {
+  margin: 10px 0 15px 0;
+  font-size: 1.5em;
+  color: rgb(41, 42, 41);
+}
+.homeherotext .button {
+  color: white;
+  background-color: rgb(41, 42, 41);
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+.homeherotext .button:hover {
+  box-shadow: 0 0 5px rgb(41, 42, 41);
+}
+div.towns section {
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px #333;
+  margin: 20px auto;
+}
 
+div.towns h3 {
+  color:rgb(41, 42, 41);
+  margin: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+div.towns h4 {
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+div.towns p {
+  margin: 5px;
+}
+div.towns img {
+  box-shadow: 0 0 5px #333;
+  margin-top: 5px;
+  width: 75%;
+  height: auto;
+  margin-bottom: 10px;
+}
+div.towns section:nth-child(odd) {
+  background-color: rgb(218, 218, 218);
+}
+div.event img {
+  display: none;
+}
+div.event section {
+  text-align: center;
+  padding: 20px;
+}
+div.event .ticketbtn {
+  color: white;
+  background-color: rgb(41, 42, 41);
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+div.event .ticketbtn:hover {
+  box-shadow: 0 0 5px rgb(41, 42, 41);
+}
+/***********Preston Page**************/
 .subhead {
   text-align: center;
   color: rgb(41, 42, 41);
