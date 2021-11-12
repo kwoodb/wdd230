@@ -67,15 +67,19 @@
 		align-self: center;
 		padding: 10px;
 	}
-	/*.towns:nth-child(odd) {
+	.towns section:nth-child(odd) div {
 		grid-column: 2;
-	}*/
-	.towns:nth-child(odd) img {
+	}
+	.towns section:nth-child(odd) img {
 		grid-column: 1;
+		grid-row: 1;
 	}
 	div.towns img {
+		margin: 0 auto;
 		width: 100%;
 		padding: 0;
+		box-shadow: none;
+		text-align: center;
 	}
 	/**************Preston Page*************/
 	.subhead{

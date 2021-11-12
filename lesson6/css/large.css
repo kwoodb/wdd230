@@ -34,27 +34,32 @@
 	div.towns section {
 		grid-template-columns: 1fr;
 		max-width: 100%;
-		border-radius: 5px;
 	}
 	div.towns h3 {
 		color:rgb(41, 42, 41);
-		font-size: 2em;
+		font-size: 1.5em;
 		margin-bottom: 5px;
 		padding-top: 10px;
 	}
 	div.towns h4 {
-		font-size: 1em;
+		font-size: 12px;
   		margin: 0;
  		margin-bottom: 15px;
+		padding: 0;
 	}
 	div.towns p {
 		margin: 5px;
 	}
+	.towns section:nth-child(odd) div {
+		grid-column: 1;
+	}
+	.towns section:nth-child(odd) img {
+		grid-column: 1;
+		grid-row: 2;
+	}
 	div.towns img {
 		display: flex;
-		margin: 0;
 		margin-top: 10px;
-		width: 100%;
 		box-shadow: none;
 	}
 	div.event {

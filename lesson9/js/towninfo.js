@@ -19,11 +19,9 @@ fetch(requestURL)
             let founding = document.createElement('p');
             let pop = document.createElement('p');
             let annualRain = document.createElement('p');
-            let imagediv = document.createElement('div');
             let image = document.createElement('img');
 
             towninfo.innerHTML = `<span class="towninfogrid></span>`;
-            bioinfo.innerHTML  = `<span class="bioinfo"></span>`;
             h3.innerHTML = `<span class="info">${highcountry.name}</span>`;
             h4.innerHTML= `<span class="info">${highcountry.motto}</span>`;
             founding.innerHTML= `<span class="info">Year Founded: ${highcountry.yearFounded}</span>`;
@@ -31,7 +29,6 @@ fetch(requestURL)
             annualRain.innerHTML= `<span class="info">Annual Rain Fall: ${highcountry.averageRainfall}</span>`;
             image.setAttribute('src', `images/${highcountry.photo}`);
             image.setAttribute('alt', `${highcountry.name}`);
-            imagediv.innerHTML = `<span class="imagediv"></span>`;
             
 
             towninfo.appendChild(bioinfo);
@@ -40,8 +37,7 @@ fetch(requestURL)
             bioinfo.appendChild(founding);
             bioinfo.appendChild(pop);
             bioinfo.appendChild(annualRain);
-            imagediv.appendChild(image);
-            towninfo.appendChild(imagediv);
+            towninfo.appendChild(image);
 
             document.querySelector('div.towns').appendChild(towninfo);
         });
