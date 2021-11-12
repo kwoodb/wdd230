@@ -83,6 +83,7 @@
 	}
 	.weathersummary {
 		width: 250px;
+		height: auto;
 		font-size: 1.2em;
 		line-height: 1.2em;
 		left: 45px;
@@ -98,5 +99,6 @@
 	/*************Storm Center***************/
 	.reportBtn {
 		width: 25%;
+		height: auto;
 	  }
 }
