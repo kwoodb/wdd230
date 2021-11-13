@@ -11,6 +11,10 @@
 	nav ul li a {
 		padding: .6rem 1rem;
 	}
+	main {
+		max-width: 100%;
+		margin: 0;
+	  }
 	/**************Home Page****************/
 	.homeherotext {
 		position: absolute;
