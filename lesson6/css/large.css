@@ -1,5 +1,4 @@
 @media only screen and (min-width: 60em) {
-    
 	.headings h1 {
 		font-size: 3rem;
 	}
@@ -41,7 +40,7 @@
 	}
 	div.towns h3 {
 		color:rgb(41, 42, 41);
-		font-size: 1.5em;
+		font-size: 1.25em;
 		margin-bottom: 5px;
 		padding-top: 10px;
 	}
@@ -83,7 +82,7 @@
 	
 	 /*************Preston Page************/ 
 	.subhead{
-		font-size: 2rem;
+		font-size: 2.25rem;
 	}
 	.weathersummary {
 		width: 250px;
@@ -92,6 +91,9 @@
 		line-height: 1.2em;
 		left: 45px;
 		bottom: 25px;
+	}
+	.weekforecast {
+		font-size: 1.75rem;
 	}
 	/*************Gallery Page***************/
 	.gallerygrid {

@@ -85,7 +85,7 @@
 	}
 	/**************Preston Page*************/
 	.subhead{
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 	.plancontent {
 		max-width: 820px;
@@ -101,7 +101,7 @@
 		display: block;
 		text-align: center;
 		color: rgb(41, 42, 41);
-		font-size: 1.75rem;
+		font-size: 1.5rem;
 	}
 
 	.flex {
