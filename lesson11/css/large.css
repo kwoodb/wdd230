@@ -1,0 +1,110 @@
+@media only screen and (min-width: 60em) {
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+    .motto {
+		font-size: x-large;
+	}
+
+	nav ul li a {
+		padding: .6rem 1rem;
+	}
+	main {
+		max-width: 1280px;
+		margin: 0;
+	  }
+	/**************Home Page****************/
+	.homeherotext {
+		position: absolute;
+		left: 55px;
+		top: 35px;
+	  }
+	.homeherotext h2 {
+	  	font-size: 2.5em;
+	}
+	.homeherotext .button {
+		font-size: 16px;
+	}
+	div.towns {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		padding: 20px;
+		max-width: 1500px;
+		margin: 5px 0 5px 0;
+	}
+	div.towns section {
+		grid-template-columns: 1fr;
+		max-width: 100%;
+	}
+	div.towns h3 {
+		color:rgb(41, 42, 41);
+		font-size: 1.25em;
+		margin-bottom: 5px;
+		padding-top: 10px;
+	}
+	div.towns h4 {
+		font-size: 12px;
+  		margin: 0;
+ 		margin-bottom: 15px;
+		padding: 0;
+	}
+	div.towns p {
+		margin: 5px;
+	}
+	.towns section:nth-child(odd) div {
+		grid-column: 1;
+	}
+	.towns section:nth-child(odd) img {
+		grid-column: 1;
+		grid-row: 2;
+	}
+	div.towns img {
+		display: flex;
+		margin-top: 10px;
+		box-shadow: none;
+	}
+	div.event {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		margin: 10px;
+	}
+
+	div.event img {
+		align-items: center;
+		display: block;
+		border-radius: 5px;
+		box-shadow:  0 0 5px #333;
+		margin: 0;
+	}
+	
+	 /*************Preston Page************/ 
+	.subhead{
+		font-size: 2.25rem;
+	}
+	.weathersummary {
+		width: 250px;
+		height: auto;
+		font-size: 1.2em;
+		line-height: 1.2em;
+		left: 45px;
+		bottom: 25px;
+	}
+	.weekforecast {
+		font-size: 1.75rem;
+	}
+	/*************Gallery Page***************/
+	.gallerygrid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.gallerygrid figure:hover {
+		box-shadow: 0 0 25px rgb(41, 42, 41);
+	}
+	/*************Storm Center***************/
+	.reportBtn {
+		width: 25%;
+		height: auto;
+	  }
+}
