@@ -85,6 +85,9 @@ nav ul.hide {
   display: table;
   clear: both;
 }
+main {
+  margin: 0 auto;
+}
 /***********Home Page*****************/
 .homehero {
   margin: 0 auto;

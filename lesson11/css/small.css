@@ -1,399 +1,416 @@
 body {
-    font-size: 16px;
-    font-family: "Nunito", sans-serif;
-    color: rgb(41, 42, 41);
-  }
-  .pancakefriday {
-    background: rgb(253, 165, 31);
-    color: rgb(41, 42, 41);
-    text-align: center;
-    padding: 0.2rem;
-  }
-  header {
-    background: linear-gradient(to bottom, #1875b9 0%, #004d91 100%);
-    padding: 0.5rem;
-    display: flex;
-    align-items: center;
-  }
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  color: rgb(41, 42, 41);
+  margin: 0 auto;
+}
+.pancakefriday {
+  background: rgb(253, 165, 31);
+  color: rgb(41, 42, 41);
+  text-align: center;
+  padding: 0.2rem;
+}
+header {
+  background: linear-gradient(to bottom, #1875b9 0%, #004d91 100%);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+}
+
+.headings h1 {
+  color: white;
+  font-size: 1.6rem;
+  margin: 0 0 0 17px;
+}
+
+.motto {
+  letter-spacing: 1pt;
+  color: white;
+  text-shadow: 1px 1px rgb(41, 42, 41);
+  margin-left: 18px;
+  font-size: 0.9rem;
+}
+
+nav button {
+  margin: 0.2rem 2%;
+  padding: 0.45rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  color: white;
+}
+
+nav {
+  background-color: rgb(85, 85, 85);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 0.8rem 2%;
+  text-decoration: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+nav ul li.activebutton a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(253, 165, 31);
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav ul.hide {
+  display: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+main {
+  margin: auto;
+}
+/***********Home Page*****************/
+.homehero {
+  margin: 0 auto;
+  position: relative;
+}
+.homehero img {
+  width: 100%;
+  height: auto;
+}
+.homeherotext {
+  position: absolute;
+  left: 25px;
+  top: 3px;
+}
+.homeherotext h2 {
+  margin: 10px 0 15px 0;
+  font-size: 1.5em;
+  color: rgb(41, 42, 41);
+}
+.homeherotext .button {
+  color: white;
+  background-color: rgb(41, 42, 41);
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+.homeherotext .button:hover {
+  box-shadow: 0 0 5px rgb(41, 42, 41);
+}
+div.towns section {
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px #333;
+  margin: 20px auto;
+}
+
+div.towns h3 {
+  color:rgb(41, 42, 41);
+  margin: 10px;
+  margin-bottom: 5px;
+  padding-top: 10px;
+}
+div.towns h4 {
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 15px;
+}
+div.towns p {
+  margin: 5px;
+}
+div.towns img {
+  box-shadow: 0 0 5px #333;
+  margin-top: 5px;
+  width: 75%;
+  height: auto;
+  margin-bottom: 10px;
+}
+div.towns section:nth-child(odd) {
+  background-color: rgb(218, 218, 218);
+}
+div.event img {
+  display: none;
+}
+div.event section {
+  text-align: center;
+  padding: 20px;
+}
+div.event .ticketbtn {
+  color: white;
+  background-color: rgb(41, 42, 41);
+  margin: 0;
+  text-decoration: none;
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 12px;
+}
+div.event .ticketbtn:hover {
+  box-shadow: 0 0 5px rgb(41, 42, 41);
+}
+/***********Preston Page**************/
+.subhead {
+  text-align: center;
+  color: rgb(41, 42, 41);
+}
+
+.hero {
+  position: relative;
+  margin: 25px auto;
+}
+
+.prestonhero {
+  position: relative;
+  text-align: center;
+}
+.prestonhero img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px #333;
+}
+.weathersummary {
+  margin: 25px auto;
+  padding: 1.5rem;
+  background: rgb(24, 117, 185);
+  color: white;
+  border: 1pt solid rgb(24, 117, 185);
+  box-shadow: 0 0 5px #333;
+}
+.summarytitle {
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.summarygrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sumleft {
+  margin-right: 0.5rem;
+  font-weight: 700;
+  text-align: right;
+}
+.sumright {
+  margin-left: 0.5rem;
+  text-align: left;
+}
+.weekforecast {
+  display: none;
+}
+.flex {
+  display: none;
+}
+div.eventcontainer {
+  text-align: center;
+  background-color:  rgb(24, 117, 185);
+  padding: 10px;
+  color: white;
+  box-shadow: 0 0 5px #333;
+  max-width: 400px;
+  border: 1px solid rgb(41, 42, 41);
+  margin: auto;
+
+}
+.article {
+  position: relative;
+  margin: 25px auto;
+  padding: 1.2rem;
+  box-shadow: 0 0 5px #333;
+  background-color: rgb(218, 218, 218);
+  text-align: left;
+}
+.articleauthor {
+  font-style: italic;
+}
+.article img {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: auto;
+  border: 1px solid rgb(41, 42, 41);
+  box-shadow: 0 0 5px #333;
+}
+
+.contactcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  background: rgb(253, 165, 31);
+  margin: 25px auto;
+  justify-items: center;
+  align-items: center;
+  padding: 1.2rem;
+}
+.prestonmap {
+  display: none;
+}
+.contactinfo {
+  line-height: 2rem;
+}
+.contactinfo a {
+  text-decoration: none;
+  color: rgb(41, 42, 41);
+}
+.smicon {
+  padding: 1rem;
+  width: 24px;
+  height: auto;
+  justify-content: space-evenly;
+}
+.gallerygrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.gallerygrid figure {
+  justify-self: center;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 5px #333;
   
-  header img {
-    width: 80px;
-    height: auto;
-  }
-  
-  .headings {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .headings h1 {
-    color: white;
-    font-size: 1.6rem;
-    margin: 0 0 0 17px;
-  }
-  
-  .motto {
-    letter-spacing: 1pt;
-    color: white;
-    text-shadow: 1px 1px rgb(41, 42, 41);
-    margin-left: 18px;
-    font-size: 0.9rem;
-  }
-  
-  nav button {
-    margin: 0.2rem 2%;
-    padding: 0.45rem;
-    background-color: transparent;
-    border: none;
-    font-size: 1.3rem;
-    color: white;
-  }
-  
-  nav {
-    background-color: rgb(85, 85, 85);
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li a {
-    display: block;
-    color: white;
-    padding: 0.8rem 2%;
-    text-decoration: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-  }
-  
-  nav ul li.activebutton a {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgb(253, 165, 31);
-  }
-  
-  nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  nav ul.hide {
-    display: none;
-  }
-  
-  .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /***********Home Page*****************/
-  .homehero {
-    margin: 0 auto;
-    position: relative;
-  }
-  .homehero img {
-    width: 100%;
-    height: auto;
-  }
-  .homeherotext {
-    position: absolute;
-    left: 25px;
-    top: 3px;
-  }
-  .homeherotext h2 {
-    margin: 10px 0 15px 0;
-    font-size: 1.5em;
-    color: rgb(41, 42, 41);
-  }
-  .homeherotext .button {
-    color: white;
-    background-color: rgb(41, 42, 41);
-    margin: 0;
-    text-decoration: none;
-    border: 1px solid rgb(85, 85, 85);
-    border-radius: 5px;
-    padding: 8px;
-    font-size: 12px;
-  }
-  .homeherotext .button:hover {
-    box-shadow: 0 0 5px rgb(41, 42, 41);
-  }
-  div.towns section {
-    max-width: 100%;
-    text-align: center;
-    box-shadow: 0 0 5px #333;
-    margin: 20px auto;
-  }
-  
-  div.towns h3 {
-    color:rgb(41, 42, 41);
-    margin: 10px;
-    margin-bottom: 5px;
-    padding-top: 10px;
-  }
-  div.towns h4 {
-    font-style: italic;
-    margin: 0;
-    margin-bottom: 15px;
-  }
-  div.towns p {
-    margin: 5px;
-  }
-  div.towns img {
-    box-shadow: 0 0 5px #333;
-    margin-top: 5px;
-    width: 75%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  div.towns section:nth-child(odd) {
-    background-color: rgb(218, 218, 218);
-  }
-  div.event img {
-    display: none;
-  }
-  div.event section {
-    text-align: center;
-    padding: 20px;
-  }
-  div.event .ticketbtn {
-    color: white;
-    background-color: rgb(41, 42, 41);
-    margin: 0;
-    text-decoration: none;
-    border: 1px solid rgb(85, 85, 85);
-    border-radius: 5px;
-    padding: 8px;
-    font-size: 12px;
-  }
-  div.event .ticketbtn:hover {
-    box-shadow: 0 0 5px rgb(41, 42, 41);
-  }
-  /***********Preston Page**************/
-  .subhead {
-    text-align: center;
-    color: rgb(41, 42, 41);
-  }
-  
-  .hero {
-    position: relative;
-    margin: 25px auto;
-  }
-  
-  .prestonhero {
-    position: relative;
-    width: 100%;
-    height: auto;
-    text-align: center;
-  }
-  .prestonhero img {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 0 0 5px #333;
-  }
-  .weathersummary {
-    margin: 25px auto;
-    padding: 1.5rem;
-    background: rgb(24, 117, 185);
-    color: white;
-    border: 1pt solid rgb(24, 117, 185);
-    box-shadow: 0 0 5px #333;
-  }
-  .summarytitle {
-    text-align: center;
-    border-bottom: 1px solid white;
-  }
-  .summarygrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .sumleft {
-    margin-right: 0.5rem;
-    font-weight: 700;
-    text-align: right;
-  }
-  .sumright {
-    margin-left: 0.5rem;
-    text-align: left;
-  }
-  .weekforecast {
-    display: none;
-  }
-  .flex {
-    display: none;
-  }
-  
-  .article {
-    position: relative;
-    margin: 25px auto;
-    padding: 1.2rem;
-    box-shadow: 0 0 5px #333;
-    background-color: rgb(218, 218, 218);
-    text-align: left;
-  }
-  .articleauthor {
-    font-style: italic;
-  }
-  .article img {
-    display: block;
-    margin: 0 auto;
-    border: 1px solid rgb(41, 42, 41);
-    box-shadow: 0 0 5px #333;
-  }
-  
-  .contactcontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 1000px;
-    background: rgb(253, 165, 31);
-    margin: 25px auto;
-    justify-items: center;
-    align-items: center;
-    padding: 1.2rem;
-  }
-  .prestonmap {
-    display: none;
-  }
-  .contactinfo {
-    line-height: 2rem;
-  }
-  .contactinfo a {
-    text-decoration: none;
-    color: rgb(41, 42, 41);
-  }
-  .smicon {
-    padding: 1rem;
-    width: 24px;
-    height: auto;
-    justify-content: space-evenly;
-  }
-  .gallerygrid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
-    margin: 0;
-  }
-  .gallerygrid figure {
-    justify-self: center;
-    padding: 0;
-    margin: 0;
-    box-shadow: 0 0 5px #333;
-    
-  }
-  .gallerygrid img {
-    max-width: 100%;
-    height: auto;
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
-  .gallerygrid figcaption {
-    text-align: center;
-    padding: 0.5em;
-  }
-  .gallerygrid figure img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-  div.stormform {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,dadada+0,f4f6f7+100 */
-  background: #1e5799; /* Old browsers */
-  background: -moz-linear-gradient(top,  #1e5799 0%, #dadada 0%, #f4f6f7 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #1e5799 0%,#dadada 0%,#f4f6f7 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #1e5799 0%,#dadada 0%,#f4f6f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f4f6f7',GradientType=0 ); /* IE6-9 */
-  
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    text-align: left;
-    max-width: 300px;
-    margin: 0 auto;
-    box-shadow: 0 0 5px #333;
-  }
-  
-  form fieldset {
-    margin-bottom: 2rem;
-    border: 2px solid rgb(41, 42, 41);
-    border-radius: 5px;
-    padding: 0.5rem 2%;
-  }
-  
-  form legend {
-    color: rgb(41, 42, 41);
-    margin: 0 1rem;
-    padding: 0 0.5rem;
-    font-size: 1.2em;
-  }
-  
-  form label.top,
-  form div {
-    display: block;
-    padding-top: 1.5rem;
-    color: rgb(41, 42, 41);
-  }
-  
-  form label.top input,
-  form label.top select,
-  form label.top textarea {
-    display: block;
-    border: solid 1px rgb(41, 42, 41);
-    border-radius: 3px;
-    padding: 0.75rem;
-    color: rgb(41, 42, 41);
-    width: 85%;
-    height: auto;
-    max-width: 20rem;
-    background-color: rgba(245, 243, 245, 0.8);
-    margin-top: 5px;
-  }
-  form #severityValue {
-    color: rgb(24, 117, 185);
-  }
-  form label.sbs {
-    display: block;
-    padding: 0.75rem 0;
-    color: rgb(41, 42, 41);
-  }
-  form input.submitBtn:hover {
-    box-shadow: 0 0 10px rgb(41, 42, 41);
-  }
-  .reportBtn {
-    margin: 0 auto;
-    width: 50%;
-    height: auto;
-  }
-  .submitBtn {
-    background-color: rgb(253, 165, 31);
-    color: rgb(41, 42, 41);
-    border-radius: .75rem;
-    padding: 0.75rem;
-    margin: 1.5rem auto;
-    width: 100%;
-    height: auto;
-    border: solid 1px rgb(41, 42, 41);
-    box-shadow: 0 0 2px #333;
-    font-weight: bold;
-  
-  }
-  form label.top input:required {
-    border: 2px solid rgb(253, 165, 31);
-  }
-  form label.top input:required:valid {
-    border: 1px solid rgb(41, 42, 41);
-  }
-  #thanksimg {
-    display: grid;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-  
-  }
-  footer {
-    position: relative;
-    background-color: rgb(24, 117, 185);
-    padding: 0.5rem;
-    color: white;
-    text-align: center;
-    font-family: "Nunito", sans-serif;
-  }
-  
-  footer a {
-    color: inherit;
-  }
+}
+.gallerygrid img {
+  max-width: 100%;
+  height: auto;
+  filter: blur(0em);
+  transition: filter 0.5s;
+}
+.gallerygrid figcaption {
+  text-align: center;
+  padding: 0.5em;
+}
+.gallerygrid figure img[data-src] {
+  filter: blur(0.2em);
+}
+
+div.stormform {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,dadada+0,f4f6f7+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #dadada 0%, #f4f6f7 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#dadada 0%,#f4f6f7 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#dadada 0%,#f4f6f7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#f4f6f7',GradientType=0 ); /* IE6-9 */
+
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #333;
+}
+
+form fieldset {
+  margin-bottom: 2rem;
+  border: 2px solid rgb(41, 42, 41);
+  border-radius: 5px;
+  padding: 0.5rem 2%;
+}
+
+form legend {
+  color: rgb(41, 42, 41);
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-size: 1.2em;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1.5rem;
+  color: rgb(41, 42, 41);
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+  display: block;
+  border: solid 1px rgb(41, 42, 41);
+  border-radius: 3px;
+  padding: 0.75rem;
+  color: rgb(41, 42, 41);
+  width: 85%;
+  height: auto;
+  max-width: 20rem;
+  background-color: rgba(245, 243, 245, 0.8);
+  margin-top: 5px;
+}
+form #severityValue {
+  color: rgb(24, 117, 185);
+}
+form label.sbs {
+  display: block;
+  padding: 0.75rem 0;
+  color: rgb(41, 42, 41);
+}
+form input.submitBtn:hover {
+  box-shadow: 0 0 10px rgb(41, 42, 41);
+}
+.reportBtn {
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+.submitBtn {
+  background-color: rgb(253, 165, 31);
+  color: rgb(41, 42, 41);
+  border-radius: .75rem;
+  padding: 0.75rem;
+  margin: 1.5rem auto;
+  width: 100%;
+  height: auto;
+  border: solid 1px rgb(41, 42, 41);
+  box-shadow: 0 0 2px #333;
+  font-weight: bold;
+
+}
+form label.top input:required {
+  border: 2px solid rgb(253, 165, 31);
+}
+form label.top input:required:valid {
+  border: 1px solid rgb(41, 42, 41);
+}
+#thanksimg {
+  display: grid;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+
+}
+footer {
+  position: relative;
+  background-color: rgb(24, 117, 185);
+  padding: 0.5rem;
+  color: white;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+footer a {
+  color: inherit;
+}

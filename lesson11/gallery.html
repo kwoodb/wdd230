@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="High Country Weather and Events Gallery page"
+    />
+    <title>High Country Weather and Events: Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="shortcut icon" href="images/faviconmountain.ico" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <script defer src="js/fonts.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/lastvisit.js"></script>
+  </head>
+  <body>
+    <header>
+      <picture>
+        <img
+          src="images/siteicon128.png"
+          alt="Picture of sun logo"
+        />
+      </picture>
+      <section class="headings">
+        <h1>High Country Weather and Events</h1>
+        <div class="motto">WE CAN WEATHER TOGETHER.</div>
+      </section>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="activebutton"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2 class="subhead">Gallery</h2>
+      <div class="gallerygrid">
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/citystorm350.jpg"
+                alt="Lightning storm in the city."
+              />
+              <figcaption>
+                Lightning storm in downtown.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/cloudburst350.jpg"
+                alt="Cloudburst over a field in Preston, Idaho."
+              />
+              <figcaption>
+                Cloudburst in a field.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/mtnsnow350.jpg"
+                alt="Snow in the high mountains."
+              />
+              <figcaption>
+                First snow in the mountains.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/rainyroad350.jpg"
+                alt="Rainy country road in the fall."
+              />
+              <figcaption>
+                Rainy country road in the fall. 
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/tornado350.jpg"
+                alt="Tornado touchdown in a field."
+              />
+              <figcaption>
+                Tornado touchdown in local field. 
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/sunset350.jpg"
+                alt="Colorful sunset after a storm."
+              />
+              <figcaption>
+                Colorful sunset after spring storm.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/snow350.jpg"
+                alt="Umbrella in a snowstorm."
+              />
+              <figcaption>
+                Umbrella in a snowstorm. 
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/rainymtn350.jpg"
+                alt="Fresh rain in the mountains."
+              />
+              <figcaption>
+                Summer rainstorm in the mountains.
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/placeholder350.jpeg"
+                data-src="images/lightningstorm350.jpg"
+                alt="Lightning storm in field. "
+              />
+              <figcaption>
+                Vibrant lightning storm in local field. 
+              </figcaption>
+            </figure>
+      </div>
+    </main>
+    <footer>
+      <span id="galleryVisits"></span><br />
+      &copy; <span id="copyrightYear"></span> High Country Weather and Events |
+      Attributions | Kristy Thieme <br /><span id="currentDate"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+  </body>
+</html>

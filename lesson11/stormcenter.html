@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="High Country Weather and Events Storm Center Report Form"
+    />
+    <title>High Country Weather and Events: Storm Center</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="shortcut icon" href="images/faviconmountain.ico" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <script defer src="js/fonts.js"></script>
+    <script defer src="js/date.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/stormrange.js"></script>
+</head>
+  <body>
+    <header>
+      <picture>
+        <img
+          src="images/siteicon128.png"
+          alt="Picture of sun logo"
+        />
+      </picture>
+      <section class="headings">
+        <h1>High Country Weather and Events</h1>
+        <div class="motto">WE CAN WEATHER TOGETHER.</div>
+      </section>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishhaven.html">Fish Haven</a></li>
+        <li class="activebutton"><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+<main class="reportStorm">
+    <h2 class="subhead">Report a Storm</h2>
+        <form method="get" action="thankyou.html">
+          <div class="stormform">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name*<input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="top">Zip Code*<input type="number" name="zipcode" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="stormDate"></label>
+                <label class="top">Storm Type <input list="stormOptions" name="stormType"></label>
+                <datalist id="stormOptions">
+                    <option value="Blizzard"></option>
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+                <div>Storm Severity</div>
+                <label class="tickrange">1 &nbsp; <input type="range" value="1" min="1" max="10" step="1" 
+                  list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> 
+                  <span id="severityValue">&nbsp; 5</span></label>
+                    <datalist id="tickmarks">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                        <option value="8"></option>
+                        <option value="9"></option>
+                        <option value="10"></option>
+                    </datalist>
+                <label class="top">Storm Region <select name="region">
+                    <option value="">Select Region &#9662;</option>
+                    <option value="fishHaven">Fish Haven</option>
+                    <option value="preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                </select></label>
+                <div>Are you currently in danger?</div>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="yes">Yes</label>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="maybe">Maybe</label>
+                <label class="sbs"><input type="radio" name="dangerLevel" value="no">No</label>
+                <label for="addInfo" class="top">Additional Information <textarea name="addInfo" id="addInfo" cols="50" rows="10"></textarea></label>
+              </fieldset></div>
+              <div class="reportBtn">
+              <input type="submit" value="Report My Storm" class="submitBtn"></div>
+        </form>
+    </main>
+      
+<footer>
+    &copy; <span id="copyrightYear"></span> High Country Weather and Events |
+    Attributions | Kristy Thieme <br /><span id="currentDate"></span>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>  
+</body>
+</html>

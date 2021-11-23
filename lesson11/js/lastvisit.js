@@ -1,5 +1,5 @@
-let d = new Date();
-const today = d.getDay();
+let day = new Date();
+const today = day.getDay();
 const lastVisit = localStorage.getItem('lastVisit') || today; 
 const millisecondsToDays = 86400000;
 if (lastVisit == today) {
@@ -7,6 +7,6 @@ if (lastVisit == today) {
 }
 else {
     displayDate = (lastVisit - today / millisecondsToDays).toFixed(0);
-    document.querySelector('#galleryVisits').textContent =  `Last visit: ${displayDate}`;
+    document.querySelector('#galleryVisits').textContent =  `Last visit: ${displayDate} days`;
 }
  localStorage.setItem('lastVisit', today); 

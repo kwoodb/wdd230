@@ -12,7 +12,6 @@
 	}
 	main {
 		max-width: 1280px;
-		margin: 0;
 	  }
 	/**************Home Page****************/
 	.homeherotext {
@@ -92,7 +91,7 @@
 		left: 45px;
 		bottom: 25px;
 	}
-	.weekforecast {
+	.weekforecast, div.localevents h3{
 		font-size: 1.75rem;
 	}
 	/*************Gallery Page***************/
