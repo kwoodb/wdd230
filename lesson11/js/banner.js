@@ -1,9 +1,9 @@
-let d = new Date();
-const today = d.getDay();
+let today = new Date();
+const friday = today.getDay();
 function bannerCalculator() {
 const pancake = document.querySelector(".pancakefriday");
 
-if (today == 5) {
+if (friday == 5) {
     pancake.style.display = 'block';
 
 }
