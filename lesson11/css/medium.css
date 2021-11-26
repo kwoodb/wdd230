@@ -54,10 +54,8 @@
 	.homeherotext .button {
 		font-size: 14px;
 	}
-	.contactcontainer, .gallerygrid, div.towns section {
-		grid-template-columns: 1fr 1fr;
-	}
 	div.towns section {
+		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin: 1em;
 	}
@@ -137,6 +135,9 @@
 	.article img {
 		float: right;
 		width: 350px;
+	}
+	.contactcontainer, .gallerygrid, div.towns section {
+		grid-template-columns: 1fr 1fr;
 	}
 	.prestonmap {
 		display: block;
