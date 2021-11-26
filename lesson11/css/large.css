@@ -15,7 +15,6 @@
 	  }
 	/**************Home Page****************/
 	.homeherotext {
-		position: absolute;
 		left: 55px;
 		top: 35px;
 	  }
@@ -72,11 +71,9 @@
 	}
 
 	div.event img {
-		align-items: center;
 		display: block;
 		border-radius: 5px;
 		box-shadow:  0 0 5px #333;
-		margin: 0;
 	}
 	
 	 /*************Preston Page************/ 
