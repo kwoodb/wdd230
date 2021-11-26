@@ -24,17 +24,18 @@
 	.homeherotext .button {
 		font-size: 16px;
 	}
-	div.towns {
+	div.towns, div.event {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 5px;
+	}
+	div.towns {
 		padding: 20px;
 		max-width: 1500px;
 		margin: 5px 0 5px 0;
 	}
 	div.towns section {
 		grid-template-columns: 1fr;
-		max-width: 100%;
 	}
 	div.towns h3 {
 		color:rgb(41, 42, 41);
@@ -64,16 +65,12 @@
 		box-shadow: none;
 	}
 	div.event {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-gap: 5px;
 		margin: 10px;
 	}
 
 	div.event img {
 		display: block;
 		border-radius: 5px;
-		box-shadow:  0 0 5px #333;
 	}
 	
 	 /*************Preston Page************/ 

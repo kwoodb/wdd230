@@ -128,7 +128,7 @@ div.towns section {
   text-align: center;
   margin: 20px auto;
 }
-div.towns section, div.towns img, .prestonhero img, .weathersummary, .article, div.eventcontainer, .article img, .gallerygrid figure, div.stormform {
+div.towns section, div.towns img, div.event img, .flex, .prestonhero img, .prestonmap, .weathersummary, .article, div.eventcontainer, .article img, .gallerygrid figure, div.stormform {
   box-shadow: 0 0 5px #333;
 }
 div.towns h3 {
