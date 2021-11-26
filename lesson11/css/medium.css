@@ -54,8 +54,10 @@
 	.homeherotext .button {
 		font-size: 14px;
 	}
+	.contactcontainer, .gallerygrid, div.towns section {
+		grid-template-columns: 1fr 1fr;
+	}
 	div.towns section {
-		display: grid;
 		grid-template-columns: 1fr 1fr;
 		margin: 1em;
 	}
@@ -76,10 +78,11 @@
 	div.towns img {
 		margin: 0 auto;
 		width: 100%;
-		height: auto;
-		padding: 0;
 		box-shadow: none;
 		text-align: center;
+	}
+	div.towns img, .article img, .prestonmap, .smicon {
+		height: auto;
 	}
 	/**************Preston Page*************/
 	.subhead{
@@ -128,29 +131,19 @@
 		padding: 0 5px 5px;
 		font-size: 1rem;
 	}
-
+	.article img, .prestonmap {
+		margin: 1rem;
+	}
 	.article img {
 		float: right;
 		width: 350px;
-		height: auto;
-		margin: 1rem;
-	}
-	.contactcontainer {
-		grid-template-columns: 1fr 1fr;
 	}
 	.prestonmap {
 		display: block;
 		width: 50%;
-		height: auto;
-		margin: 1rem;
 	}
 	.smicon {
 		width: 36px;
-		height: auto;
-	}
-	/***************Gallery Page******************/
-	.gallerygrid {
-		grid-template-columns: 1fr 1fr;
 	}
 	/*******************Storm Center**************/
 	div.stormform {

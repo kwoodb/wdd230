@@ -24,9 +24,10 @@ header, footer {
 }
 header img {
   width: 80px;
-  height: auto;
 }
-
+header img, .homehero img, div.towns img, .prestonhero img, .article img, .smicon, .gallerygrid img, form label.top input, form label.top select, form label.top textarea, .reportBtn, .submitBtn{
+  height: auto;  
+}
 .headings {
   display: flex;
   flex-direction: column;
@@ -66,12 +67,14 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
   padding: 0.8rem 2%;
   text-decoration: none;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-
+nav ul li a, .prestonhero img, .article img, form label.top, form div, form label.top input,
+form label.top select, form label.top textarea, form label.sbs {
+  display: block;
+}
 nav ul li.activebutton a {
   background-color: rgba(0, 0, 0, 0.2);
   color: rgb(253, 165, 31);
@@ -100,7 +103,6 @@ main {
 }
 .homehero img {
   width: 100%;
-  height: auto;
 }
 .homeherotext {
   position: absolute;
@@ -148,7 +150,6 @@ div.towns p {
 div.towns img {
   margin-top: 5px;
   width: 75%;
-  height: auto;
   margin-bottom: 10px;
 }
 div.towns section:nth-child(odd) {
@@ -188,10 +189,8 @@ div.event .ticketbtn:hover {
   text-align: center;
 }
 .prestonhero img {
-  display: block;
   margin: 0 auto;
   width: 100%;
-  height: auto;
 }
 .weathersummary {
   margin: 25px auto;
@@ -242,10 +241,8 @@ div.eventcontainer {
   font-style: italic;
 }
 .article img {
-  display: block;
   margin: auto;
   width: 95%;
-  height: auto;
   border: 1px solid rgb(41, 42, 41);
 }
 
@@ -269,7 +266,6 @@ div.eventcontainer {
 .smicon {
   padding: 1rem;
   width: 24px;
-  height: auto;
   justify-content: space-evenly;
 }
 /*-------------Gallery----------------*/
@@ -280,7 +276,6 @@ div.eventcontainer {
 }
 .gallerygrid img {
   max-width: 100%;
-  height: auto;
   filter: blur(0em);
   transition: filter 0.5s;
 }
@@ -323,7 +318,6 @@ form legend {
 
 form label.top,
 form div {
-  display: block;
   padding-top: 1.5rem;
   color: rgb(41, 42, 41);
 }
@@ -331,13 +325,11 @@ form div {
 form label.top input,
 form label.top select,
 form label.top textarea {
-  display: block;
   border: solid 1px rgb(41, 42, 41);
   border-radius: 3px;
   padding: 0.75rem;
   color: rgb(41, 42, 41);
   width: 85%;
-  height: auto;
   max-width: 20rem;
   background-color: rgba(245, 243, 245, 0.8);
   margin-top: 5px;
@@ -346,7 +338,6 @@ form #severityValue {
   color: rgb(24, 117, 185);
 }
 form label.sbs {
-  display: block;
   padding: 0.75rem 0;
   color: rgb(41, 42, 41);
 }
@@ -356,7 +347,6 @@ form input.submitBtn:hover {
 .reportBtn {
   margin: 0 auto;
   width: 50%;
-  height: auto;
 }
 .submitBtn {
   background-color: rgb(253, 165, 31);
@@ -365,7 +355,6 @@ form input.submitBtn:hover {
   padding: 0.75rem;
   margin: 1.5rem auto;
   width: 100%;
-  height: auto;
   border: solid 1px rgb(41, 42, 41);
   box-shadow: 0 0 2px #333;
   font-weight: bold;
