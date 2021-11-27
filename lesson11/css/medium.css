@@ -150,4 +150,11 @@
 	div.stormform {
 		max-width: 600px;
 	}
+	form #severityValue {
+		padding: 3rem;
+	  }
+	  form input[type='range'] {
+		margin-left: 35px;
+		transform: scale(1.75);
+	  }
 }
