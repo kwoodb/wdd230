@@ -2,7 +2,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
         document.getElementById('condition').textContent = jsObject.weather[0].description;
         document.getElementById('current-temp').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
@@ -35,7 +34,6 @@ fetch(apiURL)
 fetch(fapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        console.log(jsObject);
         const time = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         console.log(time);
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

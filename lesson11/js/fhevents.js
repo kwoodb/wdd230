@@ -7,7 +7,6 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         const currentTown = towns.filter((towns) => towns.name === 'Fish Haven');
-        console.table(currentTown);
         currentTown.forEach(specificTown => {
             let fishHaven = document.createElement('div');
             fishHaven.className = 'eventcontainer';
