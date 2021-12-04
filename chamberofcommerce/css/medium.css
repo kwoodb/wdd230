@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32.5em) {
+	header img {
+		width: 90px;
+		height: auto;
+		margin-left: 28%;
+	}
+	
+	.headings {
+		margin-left: 5%;
+	}
+
+	h1 {
+		font-size: 2rem;
+	}
+    h3 {
+        font-size: 1rem;
+    }
+	.motto {
+		letter-spacing: 1.5pt;
+		margin-left: 17px;
+	}
+/*--------Nav-------*/
+	.primarynav {
+		display: flex;
+	}
+   .primarynav li {
+	   display: block; 
+	   flex: 1 1 auto;
+	}
+	.primarynav a {
+	   text-align: center;
+   }
+   .primarynav li:first-child {
+	   display: none;
+   }
+   nav ul li.activebutton a {
+	   box-shadow: 0 -30px 50px rgba(0,0,0,0.3) inset, 0 0 15px #222 inset;
+	   border: 2px solid rgba(0,0,0,0.3);
+	   color: white;
+   }
+/*------------hero-----------*/
+
+.homeherotext h2 {
+	display: block;
+	margin: 10px 0 15px 0;
+	font-size: 2em;
+}
+.homeherotext .button {
+	font-size: 14px;
+}
+
+}
