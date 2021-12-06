@@ -105,5 +105,37 @@ header {
   margin: 0 auto;
   max-width: 1000px;
   padding: 75px;
-
+}
+.adcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 1em;
+  align-items: center;
+  background-color: rgb(246,246,242);
+  box-shadow: 0 0 5px rgb(41, 42, 41);
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  justify-items: center;
+}
+.adcontainer img {
+	width: 143px;
+  }
+/*------Footer----*/
+footer {
+  position: relative;
+  color: white;
+  background-color: rgb(112,138,129);
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+footer h4 {
+  color: rgb(43,33,41);
+}
+footer a {
+  color: inherit;
+}
+footer .smicon {
+  padding: 20px 0;
 }
