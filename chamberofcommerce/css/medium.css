@@ -61,4 +61,30 @@
 .adcontainer section {
 	text-align: left;
 }
+/*------West Richland-----*/
+.citylife {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: rgb(202,199,185);
+	padding: 1em;
+	gap: 1em;
+	margin: 0 auto;
+}
+.citylife img {
+	width: 100%;
+}
+.citylife img:nth-child(odd) {
+	display: none;
+}
+/*----------Contact---------*/
+.board {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1em;
+	padding: 1em;
+	margin: 0 auto;
+}
+.member img {
+	width: 100%;
+}
 }

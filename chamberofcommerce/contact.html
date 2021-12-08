@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="West Richland, Washington Chamber of Commerce: Home">
+    <title>West Richland Chamber of Commerce</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300;900&display=swap" rel="stylesheet">
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/dates.js"></script>
+
+</head>
+<body>
+    <header>
+        <picture>        
+            <img src="images/westrichlandlogo160.png" alt="Icon of hills and river">
+        </picture>
+        <section class="headings">
+            <h1>West Richland</h1>
+            <h3>Chamber of Commerce</h3>
+        </section>
+    </header>
+    <nav>
+        <ul class="primarynav">
+             <li><a class="hammenu" href="#">&#9776; Menu</a></li>
+             <li><a href="home.html">Home</a></li>
+             <li><a href="westrichland.html">West Richland</a></li>
+             <li><a href="membership.html">Membership</a></li>
+             <li><a href="directory.html">Directory</a></li>
+             <li class="activebutton"><a href="contact.html">Contact</a></li>
+         </ul>
+     </nav>
+     <main>
+        <div class="contact">
+            <div class="gridimg">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88190.58919666872!2d-119.47890418471141!3d46.31071306783136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54986f0f2237b037%3A0x7df1a3c5b825d22e!2sWest%20Richland%2C%20WA!5e0!3m2!1sen!2sus!4v1638999309528!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+             <div class="formcontainer">
+            <form method="get" action="thankyou.html">
+                <h2>Contact Us</h2>
+                <label class="top">Full Name*<input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                <label for="comment" class="top">Comments<textarea name="comment" id="comment" cols="50" rows="10"></textarea></label>
+            </form>
+            </div>
+        </div>
+        <div class="boardsection">
+            <h2 id="bmtitle">Board of Directors</h2>
+            <div class="board">
+            <div class="member">
+                <img src="images/placeholder350.jpeg" data-src="images/b1member350.jpg" alt="Marcy Kilpack">
+                <h4>Marcy Kilpack</h4>
+            </div>
+            <div class="member">
+                <img src="images/placeholder350.jpeg" data-src="images/b2member350.jpg" alt="Chris Thompson">
+                <h4>Chris Thompson</h4>
+            </div>
+            <div class="member">
+                <img src="images/placeholder350.jpeg" data-src="images/b3member350.jpg" alt="Mike Holland">
+                <h4>Mike Holland</h4>
+            </div>
+            </div>
+        </div>
+       
+     </main>
+    <footer>
+            <h4>West Richland Chamber of Commerce</h4>
+            <span>331 S. 41st Ave, West Richland, WA 99525</span>
+            <br><span>509.967-0521</span>
+            <br><span>wrcc@westrichlandchamber.org</span>
+            <br><span><img class="smicon" src="images/facebookicon.png" alt="Facbook icon">
+            <img class="smicon" src="images/instagramicon.png" alt="Instagram icon">
+            <img class="smicon" src="images/twittericon.png" alt="Twitter icon"></span><br>
+        &copy; <span id="copyrightYear"></span> West Richland Chamber of Commerce | Kristy Thieme  
+        <br><span id="currentDate"></span>
+    </footer>
+</body>
+</html>

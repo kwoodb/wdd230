@@ -45,7 +45,7 @@ header {
   .primarynav li:first-child {
     display: block;
   }
-  .primarynav li {
+  .primarynav li, .citylife, .homeherotext h2, iframe {
     display: none;
   }
   .primarynav a {
@@ -83,9 +83,6 @@ header {
   width: 100%;
   text-align: center;
 }
-.homeherotext h2 {
-  display: none;
-}
 .homeherotext .button {
   color: white;
   background-color: rgb(41, 42, 41);
@@ -102,9 +99,14 @@ header {
 /*----------Chamber of Commerce------*/
 .purpose {
   text-align: center;
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 75px;
+  padding: 2rem;
+}
+.events {
+  padding: 1em;
+  background-color: white;
+}
+.events li {
+  text-align: left;
 }
 .adcontainer {
   display: grid;
@@ -122,12 +124,128 @@ header {
 .adcontainer img {
 	width: 143px;
   }
+.localinfo {
+  text-align: center;
+  padding: 1em;
+  background-color: rgb(202,199,185);
+  margin-bottom: 20px;
+}
+.localweather {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+  .flex {
+		display: flex;
+		flex-flow: row wrap;
+		margin: 25px auto;
+		max-width: 700px;
+		border-right: 1px solid rgb(41, 42, 41);
+	}
+	.forecastdays {
+		flex: 1 1 auto;
+		border-bottom: 1px solid rgb(41, 42, 41);
+		border-left: 1px solid rgb(41, 42, 41);
+		text-align: center;
+	}
+	.weekday {
+    display: block;
+		padding: 5px;
+		background-color:rgb(112,138,129);
+		border-bottom: 1px solid rgb(41, 42, 41);
+		border-top: 1px solid rgb(41, 42, 41);
+		font-size: 1.25rem;
+		font-weight: bold;
+	}
+	.data {
+		padding: 0 5px 5px;
+		font-size: 1rem;
+	}
+  .summarytitle {
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+  .summarygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .sumleft {
+    margin-right: 0.5rem;
+    font-weight: 700;
+    text-align: right;
+  }
+  .sumright {
+    margin-left: 0.5rem;
+    text-align: left;
+  }
+/*-------West Richland-----*/
+.wrhistory {
+  padding: 1em;
+}
+/*--------Membership-------*/
+.title {
+  background-color: rgb(202,199,185);
+  margin: 1em auto;
+  padding: 1em;
+}
+.activereveal {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: 16px;
+  transform: scale(0.8);
+  transition: 0.5s;
+}
+  label {
+    display: block;
+    margin: 0 0 3px 0;
+  }
+  input[type=text] {
+    width: 100%;
+  }
+  
+  input[type="radio"]:checked ~ .activereveal{
+    opacity: 1;
+    max-height: 100px;
+    padding: 10px 20px;
+    transform: scale(1);
+    overflow: visible;
+  }
+/*--------Contact--------*/
+.contact {
+  background-color: rgb(202,199,185);
+}
+.formcontainer {
+  padding: 1em;
+  margin: 0 auto;
+}
+input, textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid rgb(43,33,41);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input {
+ margin: 10px;
+}
+.boardsection {
+  text-align: center;
+}
+.member img {
+  width: 75%;
+  border-radius: 50%;
+}
 /*------Footer----*/
 footer {
-  position: relative;
   color: white;
   background-color: rgb(112,138,129);
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Nunito", sans-serif;
 }
 footer h4 {
@@ -138,4 +256,5 @@ footer a {
 }
 footer .smicon {
   padding: 20px 0;
+  justify-items: center;
 }

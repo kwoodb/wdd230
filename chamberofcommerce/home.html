@@ -18,9 +18,10 @@
     <script defer src="js/lazyload.js"></script>
     <script defer src="js/dates.js"></script>
     <script defer src="js/weather.js"></script>
-    <script defer src="#"></script>
 </head>
 <body>
+    <div class="weatheralert"> 
+    </div>
     <header>
         <picture>        
             <img src="images/westrichlandlogo160.png" alt="Icon of hills and river">
@@ -88,51 +89,41 @@
                 </section>
             </div>
         </section>
-        <section>
-            <div>
-                <div>
-                    <h3 class="weekforecast">5 Day Forecast</h3>
+        <section class="localinfo">
+            <div class="localweather">  
+                    <h3 class="weekforecast">3 Day Forecast</h3>
                     <div class="flex">
                         <div class="forecastdays">
                             <span class="weekday" id="weekday1"></span>
-                            <img src="" alt="" id="icon1">
+                            <img src="" alt="" id="icon1"><br>
                             <span class="data" id="ftemp1">°F</span>
                         </div>
                         <div class="forecastdays">
                             <span class="weekday" id="weekday2"></span>
-                            <img src="" alt="" id="icon2">
+                            <img src="" alt="" id="icon2"><br>
                             <span class="data" id="ftemp2">°F</span>
                         </div>
                         <div class="forecastdays">
                             <span class="weekday" id="weekday3"></span>
-                            <img src="" alt="" id="icon3">
+                            <img src="" alt="" id="icon3"><br>
                             <span class="data" id="ftemp3">°F</span>
                         </div>
                     </div>
-                </div>
-                <div>
                     <section class="weathersummary">
-                        <h3 class="summarytitle">Weather Summary</h3>
+                        <h3 class="summarytitle">Weather Summary</h3><br>
                         <div class="summarygrid">
                             <span class="sumleft">Conditions:</span>
                             <span class="sumright" id="condition"></span>
                             <span class="sumleft">Temperature:</span>
                             <span class="sumright">
                                 <span id="current-temp"></span>°F</span>
-                            <span class="sumleft">Wind Chill:</span>
-                            <span class="sumright">
-                                <span class="windchill"></span></span>
                             <span class="sumleft">Humidity:</span>
                             <span class="sumright">
                                 <span id="humidity"></span>%</span>
-                            <span class="sumleft">Wind Speed:</span>
-                            <span class="sumright">
-                                <span id="wind-speed"></span> mph</span>
                          </div>
                     </section>
-                </div>
             </div>
-            <div class="purpose">
+            <div class="events">
                 <h3>Upcoming Events</h3>
                 <ul>
                     <li>Dec 10 & 11: Winter Wonderland 2021 5:00 PM</li>
@@ -148,9 +139,9 @@
             <span>331 S. 41st Ave, West Richland, WA 99525</span>
             <br><span>509.967-0521</span>
             <br><span>wrcc@westrichlandchamber.org</span>
-            <br><img class="smicon" src="images/facebookicon.png" alt="Facbook icon">
+            <br><span><img class="smicon" src="images/facebookicon.png" alt="Facbook icon">
             <img class="smicon" src="images/instagramicon.png" alt="Instagram icon">
-            <img class="smicon" src="images/twittericon.png" alt="Twitter icon">
+            <img class="smicon" src="images/twittericon.png" alt="Twitter icon"></span><br>
         &copy; <span id="copyrightYear"></span> West Richland Chamber of Commerce | Weather Provided by <a href="https://openweathermap.org/">OpenWeather</a> | Kristy Thieme  
         <br><span id="currentDate"></span>
     </footer>
