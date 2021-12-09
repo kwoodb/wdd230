@@ -54,8 +54,9 @@ header {
     margin: 0 auto;
     text-align: left;
     text-decoration: none;
-    color: rgb(43,33,41);
+    color: white;
     transition: 0.5s;
+    font-weight: bold;
   }
   nav ul li.activebutton a {
       background-color: rgba(0,0,0,0.2);
@@ -223,12 +224,13 @@ input, textarea {
 }
 /*------Footer----*/
 footer {
-  color: rgb(43,33,41);
+  color: white;
   background-color: rgb(112,138,129);
   text-align: center;
   justify-content: center;
   align-items: center;
   font-family: "Nunito", sans-serif;
+  font-weight: bold;
 }
 footer h4 {
   color: rgb(43,33,41);
