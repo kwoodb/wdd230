@@ -54,7 +54,7 @@ header {
     margin: 0 auto;
     text-align: left;
     text-decoration: none;
-    color: white;
+    color: rgb(43,33,41);
     transition: 0.5s;
     font-weight: bold;
   }
