@@ -54,7 +54,7 @@ header {
     margin: 0 auto;
     text-align: left;
     text-decoration: none;
-    color: white;
+    color: rgb(43,33,41);
     transition: 0.5s;
   }
   nav ul li.activebutton a {
@@ -188,29 +188,14 @@ header {
   margin: 1em auto;
   padding: 1em;
 }
-.activereveal {
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  font-size: 16px;
-  transform: scale(0.8);
-  transition: 0.5s;
+#fcontainer {
+  margin-bottom: 20px;
 }
-  label {
-    display: block;
-    margin: 0 0 3px 0;
-  }
-  input[type=text] {
-    width: 100%;
-  }
-  
-  input[type="radio"]:checked ~ .activereveal{
-    opacity: 1;
-    max-height: 100px;
-    padding: 10px 20px;
-    transform: scale(1);
-    overflow: visible;
-  }
+/*----------Thank You--------*/
+.thanks {
+  text-align: center;
+  margin: 20px auto;
+}
 /*--------Contact--------*/
 .contact {
   background-color: rgb(202,199,185);
@@ -229,9 +214,6 @@ input, textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-input {
- margin: 10px;
-}
 .boardsection {
   text-align: center;
 }
@@ -241,7 +223,7 @@ input {
 }
 /*------Footer----*/
 footer {
-  color: white;
+  color: rgb(43,33,41);
   background-color: rgb(112,138,129);
   text-align: center;
   justify-content: center;

@@ -43,25 +43,21 @@
         <div class="title">
         <h1>Membership Application</h1>
         </div>
+        <div class="formcontainer" id="fcontainer">
         <form method="get" action="thankyou.html">
             <div class="memberform">
-              <fieldset>
-                  <legend>Contact Information</legend>
+                  <h2>Contact Information</h2>
                   <label class="top">First Name*<input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
                   <label class="top">Last Name*<input type="text" name="lname" required pattern="[A-Za-z].{5,}"></label>
                   <label class="top">Title<input type="text" name="title" pattern="[A-Za-z].{2,}"></label>
                   <label class="top">Email*<input type="email" name="email" required placeholder="someone@gmail.com"></label>
                   <label class="top">Cell Phone<input type="tel" name="phone" placeholder="1235551234"></label>
-              </fieldset>
-              <fieldset>
-                  <legend>Business Information</legend>
+                  <h2>Business Information</h2>
                   <label class="top">Business Name*<input type="text" name="bname" required pattern="[A-Za-z].{2,}"></label>
                   <label class="top">Business Address<input type="text" name="baddress" pattern="[A-Za-z1-9].{5,}"></label>
                   <label class="top">Website<input type="url" name="bwebsite"></label>
                   <label class="top">Business Description<input type="text" name="bdescription" pattern="[A-Za-z1-9].{5,}"></label>
-                </fieldset>
-                <fieldset>
-                  <legend>Membership Options</legend>
+                  <h2>Membership Options</legend>
                     <div>
                         <label class="sbs"><input type="radio" name="nonprofit" value="nonprofit">Non-Profit $100</label>
                         <div class="activereveal">
@@ -86,11 +82,10 @@
                             <p>package information</p>
                         </div>
                     </div>
-                 </fieldset>
                 </div>
                 <div class="reportBtn">
                 <input type="submit" value="Join" class="submitBtn"></div>
-          </form>
+          </form></div>
      </main>
     <footer>
             <h4>West Richland Chamber of Commerce</h4>
