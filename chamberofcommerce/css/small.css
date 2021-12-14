@@ -198,6 +198,9 @@ header {
 .wrhistory {
   padding: 1em;
 }
+.demographics h2 {
+  padding-top: 1rem;
+}
 /*--------Membership-------*/
 .title {
   background-color: rgb(202,199,185);
@@ -207,6 +210,10 @@ header {
 }
 .membershipcontainer {
   background-color: rgb(246,246,242);
+}
+.membershipcontainer h2 {
+  font-size: 28px;
+  padding-bottom: .5rem;
 }
 #fcontainer {
   margin-bottom: 20px;
@@ -227,6 +234,10 @@ header {
 }
 .optioninfo {
   padding: 1rem;
+}
+.optioninfo h2 {
+  padding-bottom: 10px;
+
 }
 /*----------Thank You--------*/
 .thanks {
@@ -304,6 +315,8 @@ div.directory .gridbox p {
 }
 .boardsection {
   text-align: center;
+  font-size: 28px;
+  font-weight: bold;
 }
 .member img {
   width: 75%;
