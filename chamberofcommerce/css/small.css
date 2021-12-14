@@ -31,14 +31,14 @@ header {
   header section {
     margin: 10px;
   }
-  h1, h3 {
+  h1, h2 {
     margin: 0 auto;
   }
   h1 {
     font-family: "Raleway Light", sans-serif;
     font-size: 1.6rem;
   }
-  h3 {
+  h2 {
     font-family: "Raleway Black", sans-serif;
     font-size: 0.9rem;
   }
