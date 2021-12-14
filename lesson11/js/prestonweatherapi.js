@@ -34,6 +34,7 @@ fetch(apiURL)
 fetch(fapiURL)
     .then((response) => response.json())
     .then((jsObject) => {
+        console.log(jsObject);
         const time = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
         console.log(time);
         const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

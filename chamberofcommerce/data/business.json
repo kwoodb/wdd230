@@ -1,0 +1,60 @@
+{
+    "business": [
+        {
+            "name": "Yoke's Fresh Market", 
+            "phone": "(509) 967-8000",
+            "address": "1401 Bombing Range Rd.",
+            "website": "www.yokesfreshmarkets.com",
+            "logo": "images/yokeslogo.png"
+        },
+        {
+            "name": "Tri-City Engineers", 
+            "phone": "(509) 210-1010",
+            "address": "3801 W. Van Giesen St.",
+            "website": "www.tricityengineers.com",
+            "logo": "images/tcelogo.png"
+        },
+        {
+            "name": "Stargazer Deluxe Services", 
+            "phone": "(509) 720-7857",
+            "address": "1422 W. Van Giesen St.",
+            "website": "www.stargazerdeluxe.com" ,
+            "logo": "images/stargazerlogo.png"
+        },
+        {
+            "name": "Sonar Insights", 
+            "phone": "(509) 713-9922",
+            "address": "1332 Bombing Range Rd.",
+            "website": "www.sonarinsights.com",
+            "logo": "images/sonarlogo.png"
+        },
+        {
+            "name": "Cougar Digital", 
+            "phone": "(509) 676-6644",
+            "address": "4001 Kennedy Rd. Suite 5",
+            "website": "www.cougardigitalmarketing.com",
+            "logo": "images/cougardigitallogo.png"
+        },
+        {
+            "name": "Business Inspired Solutions", 
+            "phone": "(509) 713-7204",
+            "address": "5829 W. Van Giesen St.",
+            "website": "www.businesssolutions.com",
+            "logo": "images/bislogo.png"
+        },
+        {
+            "name": "Northwest Rentals, Inc.", 
+            "phone": "(509) 946-5116",
+            "address": "225 Wellsian Way",
+            "website": "www.nwrentalstores.com",
+            "logo": "images/nwrlogo.jpg"
+        },
+        {
+            "name": "Ojeda", 
+            "phone": "(509) 946-8701",
+            "address": "5790 W. Van Giesen St.",
+            "website": "www.ojedaone.com",
+            "logo": "images/ojedalogo.png"
+        }
+    ]
+}

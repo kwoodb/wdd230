@@ -65,6 +65,10 @@
 	.wrhistory {
 		padding: 0;
 	}
+	/*----------Directory------*/
+	/*div.directory {
+		grid-template-columns: 1fr 1fr 1fr;
+	}*/
 	/*-----------Contact---------*/
 	.contact {
 		display: grid;

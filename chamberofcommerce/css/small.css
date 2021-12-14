@@ -4,6 +4,17 @@ body {
     color: rgb(43,33,41);
     margin: 0 auto;
   }
+div.weatheralert {
+  background-color: rgb(201,107,55);
+  color: white;
+  text-align: center;
+  padding: .5em;
+}
+.alertbtn {
+  color: white;
+  cursor: pointer;
+
+}
 header {
     background: rgb(229,209,184);
     display: flex;
@@ -34,7 +45,8 @@ header {
   /*--------------Nav---------------*/
   nav {
     margin: 0 auto;
-    background-color: rgb(112,138,129);
+    background-color: rgb(169,185,179);
+    );
     font-size: 18px;
   }
   .primarynav {
@@ -56,7 +68,7 @@ header {
     text-decoration: none;
     color: rgb(43,33,41);
     transition: 0.5s;
-    font-weight: bold;
+    font-weight: bolder;
   }
   nav ul li.activebutton a {
       background-color: rgba(0,0,0,0.2);
@@ -197,6 +209,48 @@ header {
   text-align: center;
   margin: 20px auto;
 }
+/*---------Directory---------*/
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.links ul li {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  padding: 10px;
+}
+.links ul li:hover, .links ul li.active{
+  color: rgb(201,107,55);
+}
+div.views img {
+  width: 143px;
+}
+div.listitem {
+  background-color: rgb(202,199,185);
+  padding: 1rem;
+  margin: 1rem;
+}
+/*div.directory {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+div.directory section img {
+  max-width: 100%;
+}
+div.directory section {
+  text-align: center;
+  background-color: rgb(202,199,185);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+div.directory section p {
+  font-size: 16px;
+}*/
 /*--------Contact--------*/
 .contact {
   background-color: rgb(202,199,185);
@@ -225,7 +279,7 @@ input, textarea {
 /*------Footer----*/
 footer {
   color: white;
-  background-color: rgb(112,138,129);
+  background-color: rgb(169,185,179);
   text-align: center;
   justify-content: center;
   align-items: center;
