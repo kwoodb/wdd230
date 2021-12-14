@@ -65,6 +65,17 @@
 	.wrhistory {
 		padding: 0;
 	}
+	/*---------Membership------*/
+	.membershipcontainer {
+		display: grid;
+		grid-template-columns: 3fr 2fr;
+		gap: 1rem;
+		margin: 0;
+	}
+	#fcontainer {
+		margin-left: 1rem;
+		box-shadow: 0 0 5px rgb(41, 42, 41);
+	}
 	/*----------Directory------*/
 	div.griditem {
 		grid-template-columns: 1fr 1fr 1fr;

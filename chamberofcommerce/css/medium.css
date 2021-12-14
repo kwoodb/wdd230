@@ -77,11 +77,10 @@
 	display: none;
 }
 /*---------Membership-----*/
-#fcontainer {
-	max-width: 850px;
-	background-color: rgb(246,246,242);
-	box-shadow: 0 0 5px rgb(41, 42, 41);
+.membershipcontainer {
+	margin: 1rem;
 }
+
 /*--------Directory-------*/
 
 div.listbox {

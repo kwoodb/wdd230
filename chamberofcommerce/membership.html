@@ -17,7 +17,6 @@
     <script defer src="js/hamburger.js"></script>
     <script defer src="js/lazyload.js"></script>
     <script defer src="js/dates.js"></script>
-    <script defer src="js/mform.js"></script>
 </head>
 <body>
     <header>
@@ -43,6 +42,7 @@
         <div class="title">
         <h1>Membership Application</h1>
         </div>
+        <div class="membershipcontainer">
         <div class="formcontainer" id="fcontainer">
         <form method="get" action="thankyou.html">
             <div class="memberform">
@@ -57,35 +57,44 @@
                   <label class="top">Business Address<input type="text" name="baddress" pattern="[A-Za-z1-9].{5,}"></label>
                   <label class="top">Website<input type="url" name="bwebsite"></label>
                   <label class="top">Business Description<input type="text" name="bdescription" pattern="[A-Za-z1-9].{5,}"></label>
-                  <h2>Membership Options</legend>
-                    <div>
-                        <label class="sbs"><input type="radio" name="nonprofit" value="nonprofit">Non-Profit $100</label>
-                        <div class="activereveal">
-                            <p>package information</p>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="sbs"><input type="radio" name="bronze" value="bronze">Bronze $200</label>
-                        <div class="activereveal">
-                            <p>package information</p>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="sbs"><input type="radio" name="silver" value="silver">Silver $400</label>
-                        <div class="activereveal">
-                            <p>package information</p>
-                        </div>
-                    </div>
-                    <div>
-                        <label class="sbs"><input type="radio" name="gold" value="gold">Gold $1000</label>
-                        <div class="activereveal">
-                            <p>package information</p>
-                        </div>
-                    </div>
+                  <h2>Membership Options</h2>
+                  <label class="options">Non-Profit<input type="radio" name="nonprofit" value="nonprofit"><span class="checkmark"></span></label>
+                  <label class="options">Bronze $200<input type="radio" name="bronze" value="bronze"><span class="checkmark"></span></label>
+                  <label class="options">Silver $400<input type="radio" name="silver" value="silver"><span class="checkmark"></span></label>
+                  <label class="options">Gold $1000<input type="radio" name="gold" value="gold"><span class="checkmark"></span></label>
                 </div>
                 <div class="reportBtn">
                 <input type="submit" value="Join" class="submitBtn"></div>
           </form></div>
+          <div class="optioninfo">
+            <h3>Non-Profit</h3>
+            <ul>
+                <li>Business name and information on our website directory</li>
+                <li>Post your events on the Chamber's online Calendar</li>
+                <li>Membership certificate</li>
+                <li>Monthly access to membership events</li>
+                <li>Referrals from Chamber staff and volunteers</li>
+            </ul>
+            <h3>Bronze $200 (Non-profit plus:)</h3>
+            <ul>
+                <li>Eligible to place ads in the e-newsletter</li>
+                <li>One-time use email list or mailing labels</li>
+                <li>One deal per year promoted on Chamber's Social Media</li>
+            </ul>
+            <h3>Silver $400 (Bronze plus:)</h3>
+            <ul>
+                <li>Two free tickets to anual awards event</li>
+                <li>Spotlight on Chamber's website</li>
+                <li>Two additional email list or mailing lables use</li>
+            </ul>
+            <h3>Gold $1000 (Silver plus:)</h3>
+                <ul>
+                    <li>Logo appears on Chamber's banner at events</li>
+                    <li>Annual meetign with Executive Directo</li>
+                    <li>Two additional tickets to anual awards event</li>
+                </ul>
+          </div>
+        </div>
      </main>
     <footer>
             <h4>West Richland Chamber of Commerce</h4>
