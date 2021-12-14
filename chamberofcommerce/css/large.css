@@ -66,9 +66,9 @@
 		padding: 0;
 	}
 	/*----------Directory------*/
-	/*div.directory {
+	div.griditem {
 		grid-template-columns: 1fr 1fr 1fr;
-	}*/
+	}
 	/*-----------Contact---------*/
 	.contact {
 		display: grid;

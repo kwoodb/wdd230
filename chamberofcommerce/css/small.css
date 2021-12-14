@@ -46,7 +46,6 @@ header {
   nav {
     margin: 0 auto;
     background-color: rgb(169,185,179);
-    );
     font-size: 18px;
   }
   .primarynav {
@@ -225,32 +224,41 @@ header {
 .links ul li:hover, .links ul li.active{
   color: rgb(201,107,55);
 }
-div.views img {
-  width: 143px;
-}
-div.listitem {
+div.listbox {
   background-color: rgb(202,199,185);
   padding: 1rem;
   margin: 1rem;
+  text-align: center;
 }
-/*div.directory {
+div.views img {
+  width: 143px;
+}
+div.listbox .viewleftlist {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+div.listbox .viewrightlist p, div.gridbox .viewrightgrid p {
+  font-size: 14px;
+  padding: 0;
+}
+div.griditem {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-div.directory section img {
+div.griditem img {
   max-width: 100%;
 }
-div.directory section {
+div.griditem .gridbox {
   text-align: center;
   background-color: rgb(202,199,185);
   padding: 1rem;
   margin-bottom: 1rem;
 }
-div.directory section p {
+div.directory .gridbox p {
   font-size: 16px;
-}*/
+}
 /*--------Contact--------*/
 .contact {
   background-color: rgb(202,199,185);

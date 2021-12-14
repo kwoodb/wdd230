@@ -84,11 +84,19 @@
 }
 /*--------Directory-------*/
 
-/*div.directory {
+div.listbox {
+	display: flex;
+	align-items: center;
+	text-align: left;
+}
+div.listbox .viewrightlist p, div.gridbox .viewrightgrid p {
+	font-size: 20px;
+}
+div.griditem {
 	grid-template-columns: 1fr 1fr;
 	gap: 1rem;
 	margin: 1rem;
-}*/
+}
 
 /*----------Contact---------*/
 .board {
