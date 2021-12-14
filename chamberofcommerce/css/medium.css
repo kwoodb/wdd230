@@ -12,7 +12,7 @@
 	h1 {
 		font-size: 2rem;
 	}
-    h3 {
+    h2 {
         font-size: 1rem;
     }
 	.motto {
@@ -40,7 +40,7 @@
    }
 /*------------hero-----------*/
 
-.homeherotext h2 {
+.homeherotext h3 {
 	display: block;
 	margin: 10px 0 15px 0;
 	font-size: 2em;

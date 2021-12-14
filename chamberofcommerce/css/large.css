@@ -5,11 +5,11 @@
     header img {
 		width: 100%;
 	}
-	h3 {
+	h2 {
         font-size: 28px;
     }
 	/*-----------hero-------*/
-	.homeherotext h2 {
+	.homeherotext h3 {
 		font-size: 3em;
 	}
 	.homeherotext .button {
